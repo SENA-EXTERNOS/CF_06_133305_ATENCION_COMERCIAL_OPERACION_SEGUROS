@@ -41,7 +41,7 @@
       #t_2_1
 
       .titulo-segundo.color-acento-contenido
-        h2 2.1 Tipos de informes
+        h2 2.1 Técnicas de análisis de datos y modelos analíticos
 
       .row.justify-content-center.align-items-start.mt-5      
           .col-lg-4
@@ -91,7 +91,7 @@
       separador
 
     #t_2_2.titulo-segundo.color-acento-contenido.mt-2
-      h2 2.2  Contextualización y estado del arte.
+      h2 2.2   Minería de datos, métodos de recopilación e integración de datos 
 
 
     .row

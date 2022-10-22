@@ -101,49 +101,50 @@
         figure
           img(src='@/assets/curso/temas/tema1/img6.png')
 
-      .tarjeta.color-acento-botones.p-3(x="15%" y="41%" numero="+")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+      .tarjeta.color-acento-puntoscalientes.p-3(x="15%" y="41%" numero="+")
+        .h2.text-center.ubicaciontxto Formales
+        p.mb-0.text-small.text-left Son aquellas que cumplen con los requisitos para establecer una organización, entre estas, haber realizado su formalización ante una Cámara de Comercio.
         
-      .tarjeta.color-acento-botones.p-3(x="15%" y="57%" numero="+")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+      .tarjeta.color-acento-puntoscalientes.p-3(x="15%" y="57%" numero="+")
+        .h2.text-center.ubicaciontxto Informales
+        p.mb-0.text-small.text-left Son aquellas que se crean como resultado de las actividades económicas realizadas directamente con los usuarios del servicio o clientes, pero no se formalizan mediante los mecanismos definidos por el Estado. 
+        
+      .tarjeta.color-acento-puntoscalientes.p-3(x="36.5%" y="43.9%" numero="+")
+        .h2.text-center.ubicaciontxto Con ánimo de lucro
+        p.mb-0.text-small.text-left Son aquellas organizaciones que tienen como objetivo generar utilidades para los socios.
+        
+      .tarjeta.color-acento-puntoscalientes.p-3(x="36.5%" y="64%" numero="+")
+        .h2.text-center.ubicaciontxto Sin ánimo de lucro
+        p.mb-0.text-small.text-left Son aquellas organizaciones cuyas actividades económicas no tienen la finalidad de generar lucro o utilidades.
+        
+      .tarjeta.color-acento-puntoscalientes.p-3(x="58.5%" y="41.5%" numero="+")
+        .h2.text-center.ubicaciontxto Privadas
+        p.mb-0.text-small.text-left Se caracterizan por ser constituidas con capital privado.
+        
 
-      .tarjeta.color-acento-botones.p-3(x="36.5%" y="43.9%" numero="+")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      .tarjeta.color-acento-botones.p-3(x="36.5%" y="64%" numero="+")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      .tarjeta.color-acento-botones.p-3(x="58.5%" y="41.5%" numero="+")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-
-      .tarjeta.color-acento-botones.p-3(x="58.5%" y="57%" numero="+")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
+      .tarjeta.color-acento-puntoscalientes.p-3(x="58.5%" y="57%" numero="+")
+        .h2.text-center.ubicaciontxto Públicas
+        p.mb-0.text-small.text-left Se caracterizan por ser constituidas con dinero de origen público y porque en su estructura participa el Estado o el Gobierno.
+        
       
-      .tarjeta.color-acento-botones.p-3(x="80%" y="41%" numero="+")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+      .tarjeta.color-acento-puntoscalientes.p-3(x="80%" y="41%" numero="+")
+        .h5.mb-2 Micro
+        p Son aquellas que tienen hasta 10 trabajadores.
 
 
-      .tarjeta.color-acento-botones.p-3(x="80%" y="57%" numero="+")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+      .tarjeta.color-acento-puntoscalientes.p-3(x="80%" y="57%" numero="+")
+        .h2.text-center.ubicaciontxto Pequeñas
+        p.mb-0.text-small.text-left Son aquellas que tienen entre 11 y 50 trabajadores.
+        
 
-
-      .tarjeta.color-acento-botones.p-3(x="80%" y="74%" numero="+")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      .tarjeta.color-acento-botones.p-3(x="80%" y="89%" numero="+")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+      .tarjeta.color-acento-puntoscalientes.p-3(x="80%" y="74%" numero="+")
+        .h2.text-center.ubicaciontxto Mediana
+        p.mb-0.text-small.text-left Son aquellas que tienen entre 51 y 200 trabajadores.
+        
+      .tarjeta.color-acento-puntoscalientes.p-3(x="80%" y="89%" numero="+")
+        .h2.text-center.ubicaciontxto Grandes
+        p.mb-0.text-small.text-left Son aquellas que tienen más de 200 trabajadores.
+    
 
     .row.justify-content-center.mt-5
       .col-lg-9
