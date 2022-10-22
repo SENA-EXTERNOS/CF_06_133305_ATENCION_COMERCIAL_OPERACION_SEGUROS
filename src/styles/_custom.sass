@@ -3,12 +3,20 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
+    right: 60%
+    width: 23%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top:  4%
+    right: 59%
+    width: 12%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top:  15%
     right: 30%
+    width: 12%
 
 
 @keyframes float1
@@ -17,3 +25,248 @@
 
   100%
     transform: translateY(0px)
+
+
+.bloque-texto-b.color-cajon:before
+  background:  #FDDCC1
+
+figcaption
+  
+  background: white !important
+  border-top: 10px solid #54AA13
+  box-shadow: 0px 2px 8px darkgrey
+
+
+.colorblue
+  background: #FFF4F0
+  border: 5px solid #FF805A
+
+.orangecolor
+  color: #FF805A   
+
+.tabs-a__tab
+  background-color: #E8E8E8
+
+.cajon.color-primario 
+  background-color: #FDDCC1
+
+
+
+.img-infografica.color-acento-botones .img-infografica__item__numero, .img-infografica-b.color-acento-botones .img-infografica__item__numero 
+    color: #FFFFFF
+
+
+
+.fa-angle-right:before
+   color: #FECE2F
+
+.colorgreen
+  background-color: #C3E1AC
+
+
+.linea-tiempo-d .tarjeta
+  background-color: #C3E1AC
+
+.bloque-texto-g__texto3
+  right: 500px    
+  background-color: rgba(255, 255, 255, 1.0)  
+  position: sticky
+  width: 60%
+  //text-align: center
+
+
+.bloque-texto-g__texto2
+  right: 500px    
+  background-color: rgba(255, 255, 255, 0.5)
+  position: sticky
+  width: 70%
+  //text-align: center
+
+@media (max-width: 500px)
+  .bloque-texto-g__texto2
+    width: 100% 
+
+
+
+
+.bloque-texto-g__img.carimg
+  left: 510px
+  
+@media (max-width: 500px)
+  
+  .bloque-texto-g__img.carimg 
+    left: 0px
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+
+.bloque-fondo1
+  background-image: url(../assets/curso/temas/tema1/Fondo1footer.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom 
+
+.bloque-fondo2
+  background-image: url(../assets/curso/temas/tema1/Fondo1.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: tops
+
+.tarjeta--amarilla
+  background: #FFF8DB
+
+.cajon.color-secundario.colorcajontema2
+  background-color: #FFF8DB
+
+.cajon.color-secundario.colorcajonorange
+  background-color: #FFF4F0
+
+div.acordion__activo
+  background-color: #FFF8DB
+.tarjeta--vereee
+  background-color: #C3E1AC
+
+
+.img-infografica__item__dot:before
+  background-color: #E5F2DB
+
+.tarjeta.tarjeta-flip.color-secundario
+  background-color: #E5F2DB
+
+
+
+
+.fondotema3
+  background-image: url(../assets/curso/temas/tema3/fondotema3.png)
+  background-repeat: no-repeat
+  background-size: auto
+
+.color-greeoscuro
+  background: #C3E1AC
+.color-greeclaro
+  background: #E5F2DB
+
+
+.lista-ul__vineta.point:before
+  font-size: 45px 
+
+
+.bloque-fondo1
+  background-image: url(../assets/curso/temas/tema4/fondo.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom 
+
+.colortable
+  background-color: #FFFFFF
+
+
+.lista-ul__vineta:before 
+    content: '• '
+    line-height: 0em
+
+
+.bloque-fondot5
+  background-image: url(../assets/curso/temas/tema5/fondotema5.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom
+
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  background-color: #EFF7E9 
+
+.colorpesta
+  background-color: #EFF7E9
+
+.imgdimension
+  height: 300px
+
+.edit
+  background-color: white
+  border-radius: 50%
+  border: 1px solid grey
+  padding: 10px
+
+
+.bloque-fondot6
+  background-image: url(../assets/curso/temas/tema5/fondotema6.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom
+
+.bloque-fondo2tema4
+  background-image: url(../assets/curso/temas/tema4/fondo2tema4.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: center
+
+
+.bg1
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -21px 
+    width: calc( 100% + 96px )
+    height: 90%       
+    background-image: url('../assets/curso/temas/tema1/Fondo1.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+  
+.bg2  
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 160px 
+    width: calc( 100% + 96px )
+    height: 90%       
+    background-image: url('../assets/curso/temas/tema2/Fondotema2.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top
+
+
+.bg3 
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -54px
+    width: calc( 100% + 96px )
+    height: 90%       
+    background-image: url('../assets/curso/temas/tema4/fondo2tema4.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top
+
+
+.tablatd
+  vertical-align: baseline
+
+.fa-angle-left:before
+  color: #FECE2F
+
+.tarjeta-flip.color-secundario .tarjeta-flip__img
+  background-color: #E5F2DB
+
+.tarjeta-flip.color-acento-contenido .tarjeta-flip__contenido
+  background-color: #FECE2F

@@ -3,19 +3,31 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    .row.justify-content-center
+        .col-lg-8.sm-8
+          .titulo-sexto.color-acento-contenido
+            b Atención comercial y operación en seguros
+            p Síntesis: Preparación, análisis y presentación de datos masivos
+
+
+        .col-lg-2
+          figure
+          img(src="@/assets/curso/temas/g4.svg" width='89,61' height='86,7')
+        
+    p.mt-4 En este componente formativo se aborda la identificación de requerimientos de información y las condiciones establecidas para su análisis, el proceso de identificación de las fuentes válidas, la depuración de la información recopilada, la definición de un modelo de datos relacional y las representaciones gráficas de los datos procesados.
+        
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/Sintesis.png", alt="alt")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p Anexo. Síntesis
+
 
 </template>
 
