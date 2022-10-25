@@ -22,7 +22,8 @@
       p.mt-3 A continuación, se presenta una descripción de los desafíos que enfrentan la gestión y el almacenamiento de big data.
 
 
-      .col-lg-11
+    .row.justify-content-center.mb-4
+      .col-lg-4
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--vereee")
         .row(titulo="Principales desafíos en la gestión de big data")
           
@@ -84,7 +85,7 @@
                     h3.mb-1 Técnicas de gestión de bases de datos masivos 
                     p.text-small Algunas técnicas de transformación de datos son:
                   .col-sm-auto
-                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 5 - Técnicas de gestión de bases de datos masivos  (1).pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-downloa
 

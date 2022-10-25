@@ -33,7 +33,7 @@
 
     .row.justify-content-center.mt-5
       .col-lg-7
-        TabsA.color-acento-contenido.orangecolor  
+        TabsA.color-primario
           .tarjeta.colorblue.p-4(titulo="Miembros")       
             .row
               .col-xl-2.mb-4
@@ -164,9 +164,9 @@
     .row.justify-content-center.align-items-start.mt-5      
         .col-lg-5
             img(src='@/assets/curso/temas/tema1/img7.png')                   
-        .col-lg-7
+        .col-lg-6
           p.mt-3 Las organizaciones son cada vez más dinámicas en su funcionamiento y relacionamiento con otras empresas del sector externo. Al existir cambios y nuevas formas de interacción, las reglas, normas, procedimientos y políticas se ajustan al ritmo del cambio expresado por nuevos materiales, tecnologías y formas de producir e interactuar. A continuación, se aclara el concepto de reglas (o normas) y políticas, para su correcta diferenciación.
-          .cajon.color-acento-contenido.p-4
+          .cajon.color-primario.p-4
             p Las reglas o normas son establecidas para que las personas que integran una organización las acaten y, con esto, se puedan llevar a cabo procedimientos, establecer comportamientos o tomar decisiones dentro la filosofía de la organización.
 
     h5.mt-5 Políticas
@@ -179,21 +179,21 @@
         
         ul.lista-ul--
           li 
-            i.fas.fa-angle-right
+            i.fas.fa-angle-right.yelllow
             | La orientación de un principio.
           
           li 
-            i.fas.fa-angle-right
+            i.fas.fa-angle-right.yelllow
             | La delimitación del alcance
           li 
-            i.fas.fa-angle-right
+            i.fas.fa-angle-right.yelllow
             | La definición de la estructura encargada de ejecutar.
           li 
-            i.fas.fa-angle-right
+            i.fas.fa-angle-right.yelllow
             | La definición de los controles o mecanismos de verificación.
 
           li 
-            i.fas.fa-angle-right
+            i.fas.fa-angle-right.yelllow
             | La documentación de todo lo anteriormente expuesto y su disposición para el acceso abierto al interior de la organización.
 
       .col-lg-5
@@ -375,7 +375,9 @@
         .col-lg-5
             img(src='@/assets/curso/temas/tema1/img20.png')                   
         .col-lg-6
-          p.mt-3 A medida que las organizaciones van creciendo, su complejidad aumenta, por lo que es necesario aplicar la ingeniería de requisitos, la cual se basa en atender de manera clara y precisa las características de un desarrollo o software con el fin de satisfacer las necesidades de los usuarios o clientes. Cabe aclarar que esta debe adaptarse al contexto de funcionamiento de la empresa y para ello es necesario llevar una estricta trazabilidad de todas las especificaciones de los requerimientos y ajustes implementados.
+          p.mt-3 A medida que las organizaciones van creciendo, su complejidad aumenta, por lo que es necesario aplicar 
+            b la ingeniería de requisitos, 
+            | la cual se basa en atender de manera clara y precisa las características de un desarrollo o software con el fin de satisfacer las necesidades de los usuarios o clientes. Cabe aclarar que esta debe adaptarse al contexto de funcionamiento de la empresa y para ello es necesario llevar una estricta trazabilidad de todas las especificaciones de los requerimientos y ajustes implementados.
           
 
 
@@ -389,7 +391,13 @@
             .col-11.col-lg-12
               p La 
                 b ingeniería de requisitos 
-                | es la fase más importante y de mayor cuidado de la ingeniería de software, que define las propiedades y funcionalidades del producto de software a desarrollar. Esta incluye los elementos de: práctica de educación, análisis, especificación y validación de los requerimientos del desarrollo de software. Una manera de asegurar un trabajo efectivo es que exista un trabajo colaborativo y alta comunicación entre el equipo de ingenieros desarrolladores y los usuarios o clientes del producto.
+                | es la fase más importante y de mayor cuidado de la ingeniería de 
+                i software, 
+                | que define las propiedades y funcionalidades del producto de 
+                i software 
+                | a desarrollar. Esta incluye los elementos de: práctica de educación, análisis, especificación y validación de los requerimientos del desarrollo de 
+                i software. 
+                | Una manera de asegurar un trabajo efectivo es que exista un trabajo colaborativo y alta comunicación entre el equipo de ingenieros desarrolladores y los usuarios o clientes del producto.
     
     
 

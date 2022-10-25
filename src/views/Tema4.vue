@@ -55,45 +55,47 @@
             
             ul.lista-ul--
               li 
-                i.fas.fa-angle-right
+                i.fas.fa-angle-right.yelllow
                 | MySQL
               
               li 
-                i.fas.fa-angle-right
+                i.fas.fa-angle-right.yelllow
                 | Estudio de administración de SQL Server
               li 
-                i.fas.fa-angle-right
+                i.fas.fa-angle-right.yelllow
                 | RDBMS de Oracle
               li 
-                i.fas.fa-angle-right
-                | Salesforce y otros softwares de ventas o CRM
+                i.fas.fa-angle-right.yelllow
+                | Salesforce y otros 
+                i softwares 
+                | de ventas o CRM
 
               li 
-                i.fas.fa-angle-right
+                i.fas.fa-angle-right.yelllow
                 | VS Code
               
               li 
-                i.fas.fa-angle-right
+                i.fas.fa-angle-right.yelllow
                 | Herramientas ESM
 
               li 
-                i.fas.fa-angle-right
-                | phpMyAdmin
+                i.fas.fa-angle-right.yelllow
+                i phpMyAdmin
 
               li 
-                i.fas.fa-angle-right
+                i.fas.fa-angle-right.yelllow
                 | Herramientas que brindan suficiente acceso
 
               li 
-                i.fas.fa-angle-right
+                i.fas.fa-angle-right.yelllow
                 | Marcos que permiten consumir, consultar y analizar fuentes de datos
 
               li 
-                i.fas.fa-angle-right
+                i.fas.fa-angle-right.yelllow
                 | Sistemas apropiados para el tamaño de cada conjunto de datos
 
               li 
-                i.fas.fa-angle-right
+                i.fas.fa-angle-right.yelllow
                 | Redes de colaboración de bases de datos
 
 

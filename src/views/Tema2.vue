@@ -34,7 +34,8 @@
           figure
           img(src='@/assets/curso/temas/tema2/img2.png')
 
-    p.mt-4 Estos pasos no son estrictamente lineales. Se debe iniciar con el paso uno y luego continuar con el paso dos. Sin embargo, los siguientes pasos deben darse naturalmente, sin importar el orden, según cada caso. Varios pasos pequeños e iterativos son mejores que unas pocas fases integrales más grandes. El ciclo de vida se centra en los pasos del proyecto. 
+    p.mt-4 Estos pasos no son estrictamente lineales. Se debe iniciar con el paso uno y luego continuar con el paso dos. Sin embargo, los siguientes pasos deben darse naturalmente, sin importar el orden, según cada caso. Varios pasos pequeños e iterativos son mejores que unas pocas fases integrales más grandes.  #[b El ciclo de vida se centra en los pasos del proyecto. ]
+     
 
      separador
     .bg2 
@@ -98,14 +99,16 @@
       .col-lg-7.mt-3
         p Así como la 
           b ciencia de datos 
-          | recolecta y analiza los datos, existe la minería de datos para clasificar grandes conjuntos de datos e identificar patrones y relaciones que pueden ayudar a resolver problemas de las organizaciones, a través del análisis de datos. Las técnicas y herramientas de minería de datos permiten predecir tendencias futuras y tomar decisiones más informadas y soportadas. El objetivo principal de la minería de datos es extraer información valiosa de los datos disponibles.         
+          | recolecta y analiza los datos, existe la 
+          b minería de datos 
+          | para clasificar grandes conjuntos de datos e identificar patrones y relaciones que pueden ayudar a resolver problemas de las organizaciones, a través del análisis de datos. Las técnicas y herramientas de minería de datos permiten predecir tendencias futuras y tomar decisiones más informadas y soportadas. El objetivo principal de la minería de datos es extraer información valiosa de los datos disponibles.         
       .col-lg-5
         figure
         img(src='@/assets/curso/temas/tema2/img6.png')
     p.mt-2 Por lo anterior, es importante reconocer la importancia y los alcances de la minería de datos. Estos aspectos se describen a continuación.
 
     .col-lg-11
-      AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--amarilla")
+      AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--vereee")
         .row(titulo="Importancia")
           .col-md-5.mb-4.mb-md-0
             p La minería de datos es un componente crucial de las iniciativas analíticas exitosas en las organizaciones. La información que esta genera se puede utilizar en inteligencia empresarial y aplicaciones de análisis avanzado que implican el análisis de datos históricos, así como aplicaciones de análisis en tiempo real que examinan la transmisión de datos a medida que se crean o recopilan.
@@ -133,7 +136,7 @@
 
 
 
-        TabsA.color-primario.orangecolor  
+        TabsA.color-primario.orangecolor.mt-4  
           .tarjeta.colorblue.p-4(titulo="Datos propios")       
             .row
               .col-xl-2.mb-4
@@ -249,7 +252,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img16.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              b 1. Detección
+              p.text-center #[b 1. Detección]
               p Se refiere al proceso de identificar fuentes de datos para un proyecto. Implica evaluar la calidad de los datos para que se pueda determinar su valor de mejor manera. Estos datos pueden obtenerse de fuentes internas y externas.
 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -257,7 +260,8 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img17.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              b 2. Colección
+              p.text-center #[b 2. Colección]
+              
               p La colección o recopilación de datos se puede completar a través de procesos manuales o automatizados. Generalmente, para el caso de los datos a gran escala no es factible recopilarlos de forma manual. Por esta razón, los científicos de datos usan lenguajes de programación para escribir software diseñado para automatizar este proceso.
 
       .col-sm-6.col-xl-4.mb-4.mb-sm-0
@@ -265,7 +269,8 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img18.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              b 3. Disputas
+              p.text-center #[b 3. Disputas]
+              
               p Es el conjunto de procesos diseñados para transformar datos sin procesar en un formato más utilizable. Según la calidad de los datos analizados, las disputas pueden implicar la fusión de varios conjuntos de datos, la identificación y el llenado de lagunas en estos, la eliminación de datos innecesarios o incorrectos y la "limpieza" o estructuración de datos para análisis futuros.       
       
     .row.justify-content-center.mt-5         
@@ -275,14 +280,16 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img19.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              b 4. Análisis
+              p.text-center #[b 4. Análisis]
+              
               p Una vez los datos sin procesar se han inspeccionado y han quedado en un estado fácilmente utilizable, es posible proceder con su análisis. Según el desafío específico que busca abordar un proyecto de datos, este análisis puede ser de diagnóstico, descriptivo, predictivo o prescriptivo. 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img20.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              b 5. Almacenamiento
+              p.text-center #[b 5. Almacenamiento]
+              
               p A lo largo de todas las etapas del ciclo de vida de los datos, estos deben almacenarse de manera segura y accesible. El medio exacto utilizado para el almacenamiento está determinado por los procedimientos de gobierno de datos de cada organización
     
     
