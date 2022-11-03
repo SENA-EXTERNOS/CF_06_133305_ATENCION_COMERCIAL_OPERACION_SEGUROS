@@ -9,9 +9,9 @@
 
     .bg1
       .row.justify-content-center.align-items-start.mt-5
-          .col-lg-3
+          .col-lg-4
               img(src='@/assets/curso/temas/tema1/tema1.png' )                   
-          .col-lg-7
+          .col-lg-8
             p.mt-3 Una organización es la figura social conformada por personas que tienen un objetivo común y están organizadas dentro de una estructura para ofertar un producto o servicio requerido por una o más personas. Para la conformación de esa estructura claramente organizada es necesario contar con una serie de normas, comportamientos y procedimientos que permiten desarrollar armónicamente su misión y visión, concebidas en un momento y espacio definido.
             .cajon.color-primario.p-4
               p Para el funcionamiento de una organización es necesario disponer de los recursos básicos para su  operación —materiales, humanos y financieros— y darles a estos un adecuado uso para sacarles provecho y lograr, de manera exitosa, los objetivos sociales, económicos, comerciales y financieros que se hayan planteado.
@@ -32,7 +32,7 @@
 
 
     .row.justify-content-center.mt-5
-      .col-lg-7
+      .col-lg-8
         TabsA.color-primario
           .tarjeta.colorblue.p-4(titulo="Miembros")       
             .row
@@ -41,7 +41,7 @@
                   img(src='@/assets/curso/temas/tema1/img1.png', alt='Texto que describa la imagen')
                  
               .col-xl-10
-                h4 Miembros
+                
                 p Son el recurso humano responsable de asumir los roles de la organización.
 
           .tarjeta.colorblue.p-4(titulo="Recursos")
@@ -52,7 +52,7 @@
                   img(src='@/assets/curso/temas/tema1/img2.png', alt='Texto que describa la imagen')
                  
               .col-xl-10
-                h4 Recursos
+               
                 p Para su existencia y posterior desarrollo es necesario que una organización disponga de recursos humanos, financieros, materiales y tecnológicos, lo que facilitará el cumplimiento de sus objetivos organizacionales.
           
           .tarjeta.colorblue.p-4(titulo="Normas")
@@ -63,7 +63,7 @@
                   img(src='@/assets/curso/temas/tema1/img3.png', alt='Texto que describa la imagen')
                  
               .col-xl-10
-                h4 Normas
+               
                 p Son el conjunto de reglas básicas para el funcionamiento de una organización. Estas se expresan en manuales, procedimientos, políticas y estrategias, que son los lineamientos para operar y tomar decisiones.
 
           .tarjeta.colorblue.p-4(titulo="Fines")
@@ -73,7 +73,7 @@
                   img(src='@/assets/curso/temas/tema1/img4.png', alt='Texto que describa la imagen')
                  
               .col-xl-10
-                h4 Fines
+                
                 p Son aquellas metas y objetivos definidas para alcanzar en un periodo determinado.
 
           .tarjeta.colorblue.p-4(titulo="Desarrollo de tareas")
@@ -83,7 +83,7 @@
                   img(src='@/assets/curso/temas/tema1/img5.png', alt='Texto que describa la imagen')
                  
               .col-xl-10
-                h4 Desarrollo de tareas
+               
                 p Es la unidad básica para el cumplimiento de actividades, que se enlaza con procedimientos y procesos de las áreas o departamentos de la organización.
 
     p.mt-4 Asimismo, se reconoce que las organizaciones son sistemas complejos que funcionan con personas. Para poder entenderlas es necesario presentar, en primera instancia, los tipos de organización existentes, sus políticas y reglas internas, así como los procesos de gestión del cambio.
@@ -102,55 +102,55 @@
           img(src='@/assets/curso/temas/tema1/img6.png')
 
       .tarjeta.color-acento-puntoscalientes.p-3(x="15%" y="41%" numero="+")
-        .h2.text-center.ubicaciontxto Formales
+        
         p.mb-0.text-small.text-left Son aquellas que cumplen con los requisitos para establecer una organización, entre estas, haber realizado su formalización ante una Cámara de Comercio.
         
       .tarjeta.color-acento-puntoscalientes.p-3(x="15%" y="57%" numero="+")
-        .h2.text-center.ubicaciontxto Informales
+       
         p.mb-0.text-small.text-left Son aquellas que se crean como resultado de las actividades económicas realizadas directamente con los usuarios del servicio o clientes, pero no se formalizan mediante los mecanismos definidos por el Estado. 
         
       .tarjeta.color-acento-puntoscalientes.p-3(x="36.5%" y="43.9%" numero="+")
-        .h2.text-center.ubicaciontxto Con ánimo de lucro
+        
         p.mb-0.text-small.text-left Son aquellas organizaciones que tienen como objetivo generar utilidades para los socios.
         
       .tarjeta.color-acento-puntoscalientes.p-3(x="36.5%" y="64%" numero="+")
-        .h2.text-center.ubicaciontxto Sin ánimo de lucro
+       
         p.mb-0.text-small.text-left Son aquellas organizaciones cuyas actividades económicas no tienen la finalidad de generar lucro o utilidades.
         
       .tarjeta.color-acento-puntoscalientes.p-3(x="58.5%" y="41.5%" numero="+")
-        .h2.text-center.ubicaciontxto Privadas
+       
         p.mb-0.text-small.text-left Se caracterizan por ser constituidas con capital privado.
         
 
       .tarjeta.color-acento-puntoscalientes.p-3(x="58.5%" y="57%" numero="+")
-        .h2.text-center.ubicaciontxto Públicas
+        
         p.mb-0.text-small.text-left Se caracterizan por ser constituidas con dinero de origen público y porque en su estructura participa el Estado o el Gobierno.
         
       
       .tarjeta.color-acento-puntoscalientes.p-3(x="80%" y="41%" numero="+")
-        .h5.mb-2 Micro
+        
         p Son aquellas que tienen hasta 10 trabajadores.
 
 
       .tarjeta.color-acento-puntoscalientes.p-3(x="80%" y="57%" numero="+")
-        .h2.text-center.ubicaciontxto Pequeñas
+        
         p.mb-0.text-small.text-left Son aquellas que tienen entre 11 y 50 trabajadores.
         
 
       .tarjeta.color-acento-puntoscalientes.p-3(x="80%" y="74%" numero="+")
-        .h2.text-center.ubicaciontxto Mediana
+        
         p.mb-0.text-small.text-left Son aquellas que tienen entre 51 y 200 trabajadores.
         
       .tarjeta.color-acento-puntoscalientes.p-3(x="80%" y="89%" numero="+")
-        .h2.text-center.ubicaciontxto Grandes
+        
         p.mb-0.text-small.text-left Son aquellas que tienen más de 200 trabajadores.
     
 
     .row.justify-content-center.mt-5
-      .col-lg-9
+      .col-lg-7
         .cajon.color-primario.p-4
-            p En Colombia, las empresas, que son un tipo específico de organización, son clasificadas por su tamaño en micro, pequeñas, medianas y grandes. Esta clasificación se encuentra reglamentada en la Ley 590 de 2000 —conocida 
-              b como Ley MiPymes— 
+            p En Colombia, las empresas, que son un tipo específico de organización, son clasificadas por su tamaño en micro, pequeñas, medianas y grandes. Esta clasificación se encuentra reglamentada en la Ley 590 de 2000 —conocida como
+              b  Ley MiPymes— 
               | y sus modificaciones (Ley 905 de 2004).
 
 
@@ -184,7 +184,7 @@
           
           li 
             i.fas.fa-angle-right.yelllow
-            | La delimitación del alcance
+            | La delimitación del alcance.
           li 
             i.fas.fa-angle-right.yelllow
             | La definición de la estructura encargada de ejecutar.
@@ -196,6 +196,12 @@
             i.fas.fa-angle-right.yelllow
             | La documentación de todo lo anteriormente expuesto y su disposición para el acceso abierto al interior de la organización.
 
+          
+
+
+
+
+
       .col-lg-5
         figure
           img(src='@/assets/curso/temas/tema1/img8.png')
@@ -205,13 +211,13 @@
 
     p Ahora bien, existen diferentes tipos de políticas organizacionales, las cuales se pueden clasificar según su temporalidad, el ámbito de aplicación, su alcance y nivel jerárquico.
 
-    p En la Figura 1, se puede observar cada uno de los tipos de políticas organizacionales según su clasificación.
+    p.mt-3 En la Figura 1, se puede observar cada uno de los tipos de políticas organizacionales según su clasificación.
 
-    .row.justify-content-center
-      .col-lg-8.sm-8
+    .row.justify-content-center.mt-3
+      .col-lg-8.sm-8.mt-4
         .titulo-sexto.color-acento-contenido
           b Figura 1. 
-          | Técnicas e instrumentos para cargos
+          | Tipos de políticas organizacionales
 
 
         .row.justify-content-around.align-items-center.mt-2
@@ -257,7 +263,7 @@
                         p.mb-0 Específicas
                       
 
-        p.mt-5 A continuación, se profundiza en cada tipo de política según su clasificación.
+      p.mt-4 A continuación, se profundiza en cada tipo de política según su clasificación.
         
       .row.justify-content-center.align-items-start.mt-5      
         .col-lg-6
@@ -321,7 +327,9 @@
       b las políticas de gestión del cambio, 
       | las cuales hacen referencia a acciones definidas para evitar inconvenientes en las áreas de 
       b tecnologías de la información. 
-      | La consecuencia más directa se presenta en equipos, softwares, infraestructura tecnológica, afectaciones que impacten la velocidad de procesamiento, capacidad de almacenamiento, seguridad y confidencialidad de la información, y la disponibilidad directa de los datos.
+      | La consecuencia más directa se presenta en equipos,
+      i  softwares, 
+      |  infraestructura tecnológica, afectaciones que impacten la velocidad de procesamiento, capacidad de almacenamiento, seguridad y confidencialidad de la información, y la disponibilidad directa de los datos.
                 
     p A continuación, se presentan las acciones relacionadas con la implementación de cambios, referente a estas políticas.          
               
@@ -377,7 +385,9 @@
         .col-lg-6
           p.mt-3 A medida que las organizaciones van creciendo, su complejidad aumenta, por lo que es necesario aplicar 
             b la ingeniería de requisitos, 
-            | la cual se basa en atender de manera clara y precisa las características de un desarrollo o software con el fin de satisfacer las necesidades de los usuarios o clientes. Cabe aclarar que esta debe adaptarse al contexto de funcionamiento de la empresa y para ello es necesario llevar una estricta trazabilidad de todas las especificaciones de los requerimientos y ajustes implementados.
+            | la cual se basa en atender de manera clara y precisa las características de un desarrollo o 
+            i software 
+            | con el fin de satisfacer las necesidades de los usuarios o clientes. Cabe aclarar que esta debe adaptarse al contexto de funcionamiento de la empresa y para ello es necesario llevar una estricta trazabilidad de todas las especificaciones de los requerimientos y ajustes implementados.
           
 
 
@@ -420,7 +430,7 @@
                 .col-10
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      h3.mb-1 Técnicas de modelado de las características de Ingeniería
+                      h3.mb-1 Técnicas de modelado de las características de ingeniería
                       p.text-small Para conocer sobre cada una de estas técnicas, lo invitamos a descargar el documento.
                     .col-sm-auto
                       a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1Técnicasdemodeladodelascaracterísticasdeingeniería.pdf')" target="_blank")

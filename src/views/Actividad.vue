@@ -12,7 +12,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         
-        p.mb-4 #[b Objetivo] Apreciado aprendiz, a continuación, encontrará una serie de preguntas que debe resolver para conocer su nivel de comprensión de los conocimientos expuestos en este componente formativo.
+        p.mb-4  Apreciado aprendiz, a continuación, encontrará una serie de preguntas que debe resolver para conocer su nivel de comprensión de los conocimientos expuestos en este componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

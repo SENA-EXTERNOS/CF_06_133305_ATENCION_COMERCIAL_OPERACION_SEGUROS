@@ -5,7 +5,7 @@ export default {
     descripcionCurso:
       'En las organizaciones los procesos de gestión de datos masivos son necesarios para la toma de decisiones y la buena gestión, para tal fin se requiere de una metodología estructurada que consta de la identificación, el análisis y la depuración de la información recopilada que permita definir un modelo de datos relacional y poder hacer representaciones gráficas de los datos procesados.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -207,7 +207,7 @@ export default {
         'un dato o contenido es abierto cuando cualquier persona es libre de usarlo, reutilizarlo o distribuirlo. Los datos abiertos están sujetos como máximo a medidas que preserven la procedencia y la apertura.',
     },
     {
-      termino: 'Hardware',
+      termino: '<em>Hardware<em>',
       significado:
         'cualquier componente físico de un sistema informático que contenga una placa de circuito, circuitos integrados u otros componentes electrónicos. Un ejemplo de hardware es la pantalla o monitor de un computador.',
     },
@@ -226,9 +226,9 @@ export default {
         'permiso para hacer algo. Esta puede mencionar al documento o contrato que va a ser licenciado.',
     },
     {
-      termino: 'Software',
+      termino: '<em>Software<em>',
       significado:
-        'conjunto de pasos expresado en un paquete tecnológico que realiza una serie de tareas y debe ser instalado en un dispositivo denominado hardware.',
+        'conjunto de pasos expresado en un paquete tecnológico que realiza una serie de tareas y debe ser instalado en un dispositivo denominado <em>hardware.<em>',
     },
     {
       termino: 'Tecnología',
@@ -239,21 +239,21 @@ export default {
   referencias: [
     {
       referencia:
-        'Borja, D. (2017). Matemáticas en contexto. Bogotá, Colombia: Magisterio',
+        'Borja, D. (2017). <em>Matemáticas en contexto.<em> Bogotá, Colombia: Magisterio',
       link: '',
     },
     {
       referencia:
-        'García, J. y Maroto, F. (2018). Interpretación de resultados estadísticos. Medicina Intensiva, 42(6), p.370-379.',
+        'García, J. y Maroto, F. (2018). <em> Interpretación de resultados estadísticos.<em> Medicina Intensiva, 42(6), p.370-379.',
       link: 'https://doi.org/10.1016/j.medin.2017.12.013 ',
     },
     {
-      referencia: 'Power Data. (s.f.). Power Data. Obtenido de ',
+      referencia: 'Power Data. (s.f.). <em>Power Data.<em> Obtenido de ',
       link: 'https://www.powerdata.es/big-data',
     },
     {
       referencia:
-        'Power Data. (2014, 5 de marzo). Las 6 dimensiones de la calidad de los datos. Obtenido de',
+        'Power Data. (2014, 5 de marzo). <em>Las 6 dimensiones de la calidad de los datos.<em> Obtenido de',
       link:
         'https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/bid/368790/las-6-dimensiones-de-la-calidad-de-los-datos',
     },

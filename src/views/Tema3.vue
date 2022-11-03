@@ -21,14 +21,16 @@
     .row.justify-content-center.mt-5
       .col-lg-9.sm-8
         .cajon.cajon.color-primario.p-4
-            p En el análisis de datos se utilizan dos modelos: la estadística descriptiva, que resume los datos mediante índices como la media o la mediana y la 
+            p En el análisis de datos se utilizan dos modelos: 
+              b la estadística descriptiva, 
+              | que resume los datos mediante índices como la media o la mediana y la 
               b estadística inferencial, 
               | que extrae conclusiones de los datos mediante pruebas estadísticas como la prueba t de Student. Estos modelos que fueron descritos en el video 
               b Modelos de análisis de datos 
               | se apoyan en métodos que se describen y ejemplifican a continuación.
 
     h5.mt-5 Ejemplos de métodos estadísticos
-    p.mt-4 A continuación, se presenta una lista de métodos estadísticos con ejemplos que facilitan su comprensión
+    p.mt-4 A continuación, se presenta una lista de métodos estadísticos con ejemplos que facilitan su comprensión.
 
     .row.justify-content-center.mt-5
       .col-lg-9.sm-8
@@ -40,8 +42,8 @@
                       img(src='@/assets/curso/temas/tema3/img2.svg', alt='Texto que describa la imagen')
                     
                   .col-xl-10
-                    h4 Riesgos enfermedades
-                    p Ejemplo: identificar los factores de riesgo del cáncer de próstata
+                    
+                    p Ejemplo: identificar los factores de riesgo del cáncer de próstata.
               .tarjeta.colorblue.p-4(titulo="Predicciones")
 
                 .row
@@ -50,7 +52,7 @@
                       img(src='@/assets/curso/temas/tema3/img3.svg', alt='Texto que describa la imagen')
                     
                   .col-xl-10
-                    h4 Predicciones 
+                     
                     p Ejemplo: predecir si alguien sufrirá un ataque al corazón sobre la base de mediciones demográficas, dietéticas o clínicas.
 
               .tarjeta.colorblue.p-4(titulo="Detección de correos")            
@@ -60,7 +62,7 @@
                       img(src='@/assets/curso/temas/tema3/img4.svg', alt='Texto que describa la imagen')
                     
                   .col-xl-10
-                    h4 Detección de correos
+                    
                     p Ejemplo: personalizar un sistema de detección de correo no deseado.
               .tarjeta.colorblue.p-4(titulo="Código postal")            
                 .row
@@ -69,7 +71,7 @@
                       img(src='@/assets/curso/temas/tema3/img5.svg', alt='Texto que describa la imagen')
                     
                   .col-xl-10
-                    h4 Código postal
+                    
                     p Ejemplo: identificar los números en un código postal escrito a mano.
 
               .tarjeta.colorblue.p-4(titulo="Clasificar elementos")            
@@ -79,7 +81,7 @@
                       img(src='@/assets/curso/temas/tema3/img6.svg', alt='Texto que describa la imagen')
                     
                   .col-xl-10
-                    h4 Clasificar elementos
+                   
                     p Ejemplo: clasificar una muestra de tejido como uno afectado por un tipo específico de cáncer.
               .tarjeta.colorblue.p-4(titulo="Relación de variables")            
                 .row
@@ -88,7 +90,7 @@
                       img(src='@/assets/curso/temas/tema3/img7.svg', alt='Texto que describa la imagen')
                     
                   .col-xl-10
-                    h4 Relación de variables
+                   
                     p Ejemplo: establecer la relación entre salario y variables demográficas a partir de los datos de encuestas de población.
 
     h5.mt-5 Selección del método estadístico
@@ -112,7 +114,7 @@
                       img(src='@/assets/curso/temas/tema3/img16.svg', alt='Texto que describa la imagen')
                     
                   .col-xl-10
-                    h4 Objetivo
+                    
                     p Propósito del estudio.
               .tarjeta.colorblue.p-4(titulo="Comportamiento")
 
@@ -122,7 +124,7 @@
                       img(src='@/assets/curso/temas/tema3/img17.svg', alt='Texto que describa la imagen')
                     
                   .col-xl-10
-                    h4 Comportamiento 
+                    
                     p Tipo y distribución de los datos usados.
               .tarjeta.colorblue.p-4(titulo="Naturaleza")            
                 .row
@@ -131,7 +133,7 @@
                       img(src='@/assets/curso/temas/tema3/img18.svg', alt='Texto que describa la imagen')
                     
                   .col-xl-10
-                    h4 Naturaleza
+                   
                     p Naturaleza de las observaciones (pareadas o no pareadas).  
 
     h5.mt-5 Evaluación de rendimiento de los métodos
@@ -171,7 +173,7 @@
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.imgdimension(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img11.png')})`}")
-            .tarjeta-flip__contenido.imgdimension.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img14.png')})`}")
+            .tarjeta-flip__contenido.imgdimension.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img30.svg')})`}")
               
               
 

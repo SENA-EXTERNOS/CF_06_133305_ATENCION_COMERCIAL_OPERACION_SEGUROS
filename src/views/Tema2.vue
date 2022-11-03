@@ -48,11 +48,15 @@
           .col-lg-4
               img(src='@/assets/curso/temas/tema2/img3.png')                   
           .col-lg-7
-            p.mt-3 En vista de que toda organización genera una gran cantidad de datos, es necesario utilizar diferentes técnicas para su manipulación. El análisis de datos es una técnica que implica diversas actividades, como recopilar, depurar y organizar los datos. Estos procesos, que suelen incluir software de análisis de datos, son necesarios para preparar la información con fines comerciales o para la toma de decisiones.
+            p.mt-3 En vista de que toda organización genera una gran cantidad de datos, es necesario utilizar diferentes técnicas para su manipulación. El análisis de datos es una técnica que implica diversas actividades, como recopilar, depurar y organizar los datos. Estos procesos, que suelen incluir 
+             i software 
+             | de análisis de datos, son necesarios para preparar la información con fines comerciales o para la toma de decisiones.
             .cajon.color-primario.p-4
               p Asimismo, los métodos y las técnicas de análisis de datos son útiles para encontrar tendencias, métricas, hechos y cifras. Estos se pueden utilizar de forma independiente o en combinación con otras técnicas y otros métodos para ayudar tanto a líderes o gerentes como a los responsables de tomar decisiones a adquirir conocimientos empresariales, a partir de diferentes tipos de datos.
 
-      p.mt-4 Estas técnicas y estos métodos pueden ser utilizados para el análisis de datos cualitativos o cuantitativos.
+      p.mt-4 Estas técnicas y estos métodos pueden ser utilizados para el análisis de datos 
+        b cualitativos o cuantitativos.
+      p A continuación, se abordará cada una de las técnicas de análisis de datos.
 
       
     
@@ -120,7 +124,9 @@
 
         .row(titulo="Alcances")
           .col-md-5.mb-4.mb-md-0
-            p La minería de datos efectiva ayuda en varios aspectos de la planificación de estrategias comerciales y la gestión de operaciones. Eso incluye funciones orientadas al cliente, como el marketing, la publicidad, las ventas y la atención al cliente, además de procesos como la fabricación, la gestión de la cadena de suministro, las finanzas y los recursos humanos. La minería de datos abarca la detección de fraudes, la gestión de riesgos, la planeación de la seguridad informática y demás casos críticos. Asimismo, esta tiene un papel relevante en la atención médica, el gobierno, la investigación científica, las matemáticas, los deportes, entre muchos otros campos.
+            p La minería de datos efectiva ayuda en varios aspectos de la planificación de estrategias comerciales y la gestión de operaciones. Eso incluye funciones orientadas al cliente, como el 
+              i marketing, 
+              | la publicidad, las ventas y la atención al cliente, además de procesos como la fabricación, la gestión de la cadena de suministro, las finanzas y los recursos humanos. La minería de datos abarca la detección de fraudes, la gestión de riesgos, la planeación de la seguridad informática y demás casos críticos. Asimismo, esta tiene un papel relevante en la atención médica, el gobierno, la investigación científica, las matemáticas, los deportes, entre muchos otros campos.
         
           .col-md-6
             figure
@@ -128,7 +134,9 @@
 
     h5.mt-2 Recopilación de datos
 
-     p.mt-3 Otro aspecto importante en la ciencia de datos es la recopilación, la cual es el proceso metodológico de reunir información sobre un tema específico. Es crucial asegurar que los datos estén completos durante la fase y que estos se recopilen de manera legal y ética. De lo contrario, su análisis no será preciso y podría tener consecuencias de distinta índole y largo alcance.       
+     p.mt-3 Otro aspecto importante en la ciencia de datos es la 
+      b recopilación, 
+      | la cual es el proceso metodológico de reunir información sobre un tema específico. Es crucial asegurar que los datos estén completos durante la fase y que estos se recopilen de manera legal y ética. De lo contrario, su análisis no será preciso y podría tener consecuencias de distinta índole y largo alcance.       
               
     p.mt-4 En general, existen tres tipos de datos de consumo a recopilar. Estos se describen a continuación.   
 
@@ -144,7 +152,7 @@
                   img(src='@/assets/curso/temas/tema2/img9.svg', alt='Texto que describa la imagen')
                  
               .col-xl-10
-                h4 Miembros
+                
                 p Los recopila una organización directamente de los usuarios y los clientes.
 
           .tarjeta.colorblue.p-4(titulo="Datos de la segunda parte")
@@ -155,10 +163,10 @@
                   img(src='@/assets/curso/temas/tema2/img10.svg', alt='Texto que describa la imagen')
                  
               .col-xl-10
-                h4 Recursos
+               
                 p Datos de clientes o datos de primera parte que comparte una organización con otra.
           
-          .tarjeta.colorblue.p-4(titulo="Partes de un estado de resultados")
+          .tarjeta.colorblue.p-4(titulo="Datos de terceros")
             
             .row
               .col-xl-2.mb-4
@@ -166,11 +174,10 @@
                   img(src='@/assets/curso/temas/tema2/img11.svg', alt='Texto que describa la imagen')
                  
               .col-xl-10
-                h4 Normas
+               
                 p Son los datos agregados alquilados o vendidos por organizaciones que no tienen conexión con la organización o los usuarios.
 
-    p Otro aspecto importante en la ciencia de datos es la recopilación, la cual es el proceso metodológico de reunir información sobre un tema específico. Es crucial asegurar que los datos estén completos durante la fase y que estos se recopilen de manera legal y ética. De lo contrario, su análisis no será preciso y podría tener consecuencias de distinta índole y largo alcance.
-
+    p Para la recopilación de datos existen diferentes métodos, tales como las encuestas, el seguimiento transaccional, las entrevistas y los grupos focales, la observación, el seguimiento en línea, los formularios o el monitoreo de redes sociales.
     .row.justify-content-center
       .col-lg-8.sm-8
         .cajon.color-secundario.colorcajontema2.p-4
@@ -252,7 +259,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img16.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-center #[b 1. Detección]
+             
               p Se refiere al proceso de identificar fuentes de datos para un proyecto. Implica evaluar la calidad de los datos para que se pueda determinar su valor de mejor manera. Estos datos pueden obtenerse de fuentes internas y externas.
 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -260,16 +267,18 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img17.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-center #[b 2. Colección]
+            
               
-              p La colección o recopilación de datos se puede completar a través de procesos manuales o automatizados. Generalmente, para el caso de los datos a gran escala no es factible recopilarlos de forma manual. Por esta razón, los científicos de datos usan lenguajes de programación para escribir software diseñado para automatizar este proceso.
+              p La colección o recopilación de datos se puede completar a través de procesos manuales o automatizados. Generalmente, para el caso de los datos a gran escala no es factible recopilarlos de forma manual. Por esta razón, los científicos de datos usan lenguajes de programación para escribir 
+                i software 
+                | diseñado para automatizar este proceso.
 
       .col-sm-6.col-xl-4.mb-4.mb-sm-0
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img18.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-center #[b 3. Disputas]
+              
               
               p Es el conjunto de procesos diseñados para transformar datos sin procesar en un formato más utilizable. Según la calidad de los datos analizados, las disputas pueden implicar la fusión de varios conjuntos de datos, la identificación y el llenado de lagunas en estos, la eliminación de datos innecesarios o incorrectos y la "limpieza" o estructuración de datos para análisis futuros.       
       
@@ -280,7 +289,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img19.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-center #[b 4. Análisis]
+              
               
               p Una vez los datos sin procesar se han inspeccionado y han quedado en un estado fácilmente utilizable, es posible proceder con su análisis. Según el desafío específico que busca abordar un proyecto de datos, este análisis puede ser de diagnóstico, descriptivo, predictivo o prescriptivo. 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -288,7 +297,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img20.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p.text-center #[b 5. Almacenamiento]
+            
               
               p A lo largo de todas las etapas del ciclo de vida de los datos, estos deben almacenarse de manera segura y accesible. El medio exacto utilizado para el almacenamiento está determinado por los procedimientos de gobierno de datos de cada organización
     

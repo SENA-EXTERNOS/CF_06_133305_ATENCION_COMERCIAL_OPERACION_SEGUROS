@@ -9,7 +9,7 @@
 
     .bloque-texto-b.color-cajon.p-1
           .bloque-texto-b__texto
-            p En la misma medida que crecen las organizaciones, los datos recopilados se deben ir estructurando con el fin de tomar decisiones importantes que conlleven a consolidar y proyectar mejor la empresa. Es por esto que se hace necesario el uso de las bases de datos. Estas son una colección organizada de información estructurada o de datos, normalmente almacenados electrónicamente en un sistema informático. Generalmente está controlada por un sistema de administración de bases de datos (DBMS, por su nombre en inglés). En la Figura 4 se pueden observar l as cinco características principales de una base de datos.
+            p En la misma medida que crecen las organizaciones, los datos recopilados se deben ir estructurando con el fin de tomar decisiones importantes que conlleven a consolidar y proyectar mejor la empresa. Es por esto que se hace necesario el uso de las bases de datos. Estas son una colección organizada de información estructurada o de datos, normalmente almacenados electrónicamente en un sistema informático. Generalmente está controlada por un sistema de administración de bases de datos (DBMS, por su nombre en inglés). En la Figura 4 se pueden observar las cinco características principales de una base de datos.
 
     .row.justify-content-center.mt-4
       .col-lg-10.sm-8
@@ -35,7 +35,7 @@
                 .row
                   .col.mb-3.mb-sm-0
                     h3.mb-1 Características y clasificación de las bases de datos
-                    p.text-small Para abordar cada una de las características y los tipos de bases de datos, lo invitamos a descargar el documento
+                    p.text-small Para abordar cada una de las características y los tipos de bases de datos, lo invitamos a descargar el documento.
                   .col-sm-auto
                     a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 3 Características y clasificación de las bases de datos.pdf')" target="_blank")
                       span Descargar
@@ -69,6 +69,9 @@
                 | Salesforce y otros 
                 i softwares 
                 | de ventas o CRM
+              li 
+                i.fas.fa-angle-right.yelllow
+                | DevOps
 
               li 
                 i.fas.fa-angle-right.yelllow
@@ -109,22 +112,28 @@
                 .row
                   .col.mb-3.mb-sm-0
                     h3.mb-1 Herramientas tecnológicas de bases de datos
-                    p.text-small Para conocer sobre cada una de estas herramientas, lo invitamos a descargar el documento 
+                    p.text-small Para conocer sobre cada una de estas herramientas, lo invitamos a descargar el documento. 
                   .col-sm-auto
                     a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 4  Herramientas tecnológicas de bases de datos.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-downloa
 
-      h5.mt-5 Big data: modelos y sistemas de gestión
+      h5.mt-5 #[i Big data:] modelos y sistemas de gestión
 
 
       .row
         .col-lg-6.mt-5
           p La necesidad de contar con herramientas y procesos claros no se reduce únicamente a las bases de datos, pues, dentro de una infraestructura definida 
-            b (arquitectura big data) 
+            b (arquitectura #[i big data)]  
             | se revisten de gran importancia los modelos 
             i big data. 
-            | El análisis de big data es el uso de técnicas analíticas avanzadas de conjuntos de datos muy grandes y diversos que incluyen datos estructurados, semiestructurados y no estructurados, de diferentes fuentes y distintos tamaños: desde terabytes hasta zettabytes.
+            | El análisis de 
+            i big data 
+            | es el uso de técnicas analíticas avanzadas de conjuntos de datos muy grandes y diversos que incluyen datos estructurados, semiestructurados y no estructurados, de diferentes fuentes y distintos tamaños: desde 
+            i terabytes 
+            | hasta 
+            i zettabytes.
+
         .col-lg-5
           figure
             img(src='@/assets/curso/temas/tema4/img5.png')
@@ -157,7 +166,7 @@
               p #[b Los sistemas de gestión de base de datos (DBMS) ]
                 | constituyen el elemento más relevante de un sistema de base de datos. A estos se les atribuye la posibilidad de administrar, supervisar y controlar las bases de datos. 
 
-      p.mt3 En el siguiente esquema se presentan las ventajas y desventajas de los DBMS
+      p.mt3 En el siguiente esquema se presentan las ventajas y desventajas de los DBMS.
 
 
       .titulo-sexto.color-acento-contenido.mt-4
@@ -217,7 +226,7 @@
               ul.lista-ul.ms-5
                   li 
                     i.fas.fa-circle
-                    p.mb-1.ms-2 El costo de hardware y software de los DBMS es bastante alto.
+                    p.mb-1.ms-2 El costo de #[i hardware]  y #[i software] de los DBMS es bastante alto.
               ul.lista-ul.ms-5
                   li 
                     i.fas.fa-circle

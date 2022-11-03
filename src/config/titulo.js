@@ -1,1 +1,1 @@
-module.exports = 'Atención comercial y operación en seguros'
+module.exports = 'Preparación, análisis y presentación de datos masivos'

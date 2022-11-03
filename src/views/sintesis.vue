@@ -3,26 +3,14 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .row.justify-content-center
-        .col-lg-8.sm-8
-          .titulo-sexto.color-acento-contenido
-            b Atención comercial y operación en seguros
-            p Síntesis: Preparación, análisis y presentación de datos masivos
-
-
-        .col-lg-2
-          figure
-          img(src="@/assets/curso/temas/g4.svg" width='89,61' height='86,7')
-        
-    p.mt-4 En este componente formativo se aborda la identificación de requerimientos de información y las condiciones establecidas para su análisis, el proceso de identificación de las fuentes válidas, la depuración de la información recopilada, la definición de un modelo de datos relacional y las representaciones gráficas de los datos procesados.
-        
+   
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
           img(src="@/assets/curso/temas/Sintesis.png", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
