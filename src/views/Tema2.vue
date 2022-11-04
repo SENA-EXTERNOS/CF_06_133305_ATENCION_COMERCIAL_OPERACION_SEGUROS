@@ -217,7 +217,7 @@
     
     col-lg-9
       figure
-        img(src="@/assets/curso/temas/tema2/img13.svg" )
+        img(src="@/assets/curso/temas/tema2/img13.png" )
 
 
 

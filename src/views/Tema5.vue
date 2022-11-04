@@ -89,7 +89,7 @@
               .col-9
                 .row
                   .col.mb-3.mb-sm-0
-                    h3.mb-1 Técnicas de gestión de bases de datos masivos 
+                    h3.mb-1 Técnicas de transformación de datos 
                     p.text-small Algunas técnicas de transformación de datos son:
                   .col-sm-auto
                     a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 5 - Técnicas de gestión de bases de datos masivos  (1).pdf')" target="_blank")
