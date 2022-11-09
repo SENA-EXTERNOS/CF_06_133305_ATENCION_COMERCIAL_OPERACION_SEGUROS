@@ -35,7 +35,7 @@
         .row(titulo="Principales desafíos en la gestión de big data") 
           
           .col-md-5.mb-4.mb-md-0
-            p.ms-5 los grandes datos suelen ser complejos. Además de su volumen y variedad, a menudo incluyen datos de transmisión y otros tipos de datos que se crean y actualizan a gran velocidad. Como resultado, el procesamiento y la gestión de big data son tareas complicadas
+            p.ms-5 Los grandes datos suelen ser complejos. Además de su volumen y variedad, a menudo incluyen datos de transmisión y otros tipos de datos que se crean y actualizan a gran velocidad. Como resultado, el procesamiento y la gestión de big data son tareas complicadas
           .col-md-5.ms-5
             figure
               img(src='@/assets/curso/temas/tema5/img2.png', alt='Texto que describa la imagen')

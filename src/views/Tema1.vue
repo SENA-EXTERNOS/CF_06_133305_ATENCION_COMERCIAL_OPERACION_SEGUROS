@@ -32,9 +32,9 @@
 
 
     .row.justify-content-center.mt-5
-      .col-lg-8
+      .col-lg-9
         TabsA.color-primario
-          .tarjeta.colorblue.p-4(titulo="Miembros")       
+          .tarjeta.colorblue.p-4(titulo="<small>Miembros</small>")       
             .row
               .col-xl-2.mb-4
                 figure
@@ -44,7 +44,7 @@
                 
                 p Son el recurso humano responsable de asumir los roles de la organización.
 
-          .tarjeta.colorblue.p-4(titulo="Recursos")
+          .tarjeta.colorblue.p-4(titulo="<small>Recursos</small>")
 
             .row
               .col-xl-2.mb-4
@@ -55,7 +55,7 @@
                
                 p Para su existencia y posterior desarrollo es necesario que una organización disponga de recursos humanos, financieros, materiales y tecnológicos, lo que facilitará el cumplimiento de sus objetivos organizacionales.
           
-          .tarjeta.colorblue.p-4(titulo="Normas")
+          .tarjeta.colorblue.p-4(titulo="<small>Normas</small>")
             
             .row
               .col-xl-2.mb-4
@@ -66,7 +66,7 @@
                
                 p Son el conjunto de reglas básicas para el funcionamiento de una organización. Estas se expresan en manuales, procedimientos, políticas y estrategias, que son los lineamientos para operar y tomar decisiones.
 
-          .tarjeta.colorblue.p-4(titulo="Fines")
+          .tarjeta.colorblue.p-4(titulo="<small>Fines</small>")
             .row
               .col-xl-2.mb-4
                 figure
@@ -76,7 +76,7 @@
                 
                 p Son aquellas metas y objetivos definidas para alcanzar en un periodo determinado.
 
-          .tarjeta.colorblue.p-4(titulo="Desarrollo de tareas")
+          .tarjeta.colorblue.p-4(titulo="<small>Desarrollo de tareas</small>")
             .row
               .col-xl-2.mb-4
                 figure

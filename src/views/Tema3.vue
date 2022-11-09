@@ -35,7 +35,7 @@
     .row.justify-content-center.mt-5
       .col-lg-9.sm-8
         TabsA.color-primario.orangecolor.mt-4  
-              .tarjeta.colorblue.p-4(titulo="Riesgos enfermedades")       
+              .tarjeta.colorblue.p-4(titulo="<small>Riesgos enfermedades</small>")       
                 .row
                   .col-xl-2.mb-4
                     figure
@@ -44,7 +44,7 @@
                   .col-xl-10
                     
                     p Ejemplo: identificar los factores de riesgo del cáncer de próstata.
-              .tarjeta.colorblue.p-4(titulo="Predicciones")
+              .tarjeta.colorblue.p-4(titulo="<small>Predicciones</small>")
 
                 .row
                   .col-xl-2.mb-4
@@ -55,7 +55,7 @@
                      
                     p Ejemplo: predecir si alguien sufrirá un ataque al corazón sobre la base de mediciones demográficas, dietéticas o clínicas.
 
-              .tarjeta.colorblue.p-4(titulo="Detección de correos")            
+              .tarjeta.colorblue.p-4(titulo="<small>Detección de correos</small>")            
                 .row
                   .col-xl-2.mb-4
                     figure
@@ -64,7 +64,7 @@
                   .col-xl-10
                     
                     p Ejemplo: personalizar un sistema de detección de correo no deseado.
-              .tarjeta.colorblue.p-4(titulo="Código postal")            
+              .tarjeta.colorblue.p-4(titulo="<small>Código postal</small>")            
                 .row
                   .col-xl-2.mb-4
                     figure
@@ -74,7 +74,7 @@
                     
                     p Ejemplo: identificar los números en un código postal escrito a mano.
 
-              .tarjeta.colorblue.p-4(titulo="Clasificar elementos")            
+              .tarjeta.colorblue.p-4(titulo="<small>Clasificar elementos</small>")            
                 .row
                   .col-xl-2.mb-4
                     figure
@@ -83,7 +83,7 @@
                   .col-xl-10
                    
                     p Ejemplo: clasificar una muestra de tejido como uno afectado por un tipo específico de cáncer.
-              .tarjeta.colorblue.p-4(titulo="Relación de variables")            
+              .tarjeta.colorblue.p-4(titulo="<small>Relación de variables</small>")            
                 .row
                   .col-xl-2.mb-4
                     figure
@@ -147,35 +147,36 @@
     
     
     
-    .row.mb-5.mt-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img.imgdimension(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img8.png')})`}")
-            .tarjeta-flip__contenido.imgdimension.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img12.png')})`}")
-              
+    .row.mt-5
+      
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+            .indicador--hover(v-if="indicadorTarjetaFlip")
+            .tarjeta-flip__contenedor
+              .tarjeta-flip__img.imgdimension(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img8.png')})`}")
+              .tarjeta-flip__contenido.imgdimension.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img12.png')})`}")
+                
 
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img.imgdimension(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img9.png')})`}")
-            .tarjeta-flip__contenido.imgdimension.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img13.png')})`}")
-              
-      .col-sm-6.col-xl-3.mb-4.mb-sm-0
-        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img.imgdimension(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img10.png')})`}")
-            .tarjeta-flip__contenido.imgdimension.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img14.png')})`}")
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+            .tarjeta-flip__contenedor
+              .tarjeta-flip__img.imgdimension(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img9.png')})`}")
+              .tarjeta-flip__contenido.imgdimension.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img13.png')})`}")
+                
+        .col-sm-6.col-xl-3.mb-4.mb-sm-0
+          .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+            .tarjeta-flip__contenedor
+              .tarjeta-flip__img.imgdimension(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img10.png')})`}")
+              .tarjeta-flip__contenido.imgdimension.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img14.png')})`}")
 
 
-      .col-sm-5.col-xl-3
-        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img.imgdimension(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img11.png')})`}")
-            .tarjeta-flip__contenido.imgdimension.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img30.svg')})`}")
-              
-              
+        .col-sm-5.col-xl-3
+          .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+            .tarjeta-flip__contenedor
+              .tarjeta-flip__img.imgdimension(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img11.png')})`}")
+              .tarjeta-flip__contenido.imgdimension.p-4.p-xl-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img15.png')})`}")
+                
+                
 
 
 
