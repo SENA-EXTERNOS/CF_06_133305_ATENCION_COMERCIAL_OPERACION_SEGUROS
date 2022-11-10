@@ -257,7 +257,7 @@
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img16.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img16.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
              
               p Se refiere al proceso de identificar fuentes de datos para un proyecto. Implica evaluar la calidad de los datos para que se pueda determinar su valor de mejor manera. Estos datos pueden obtenerse de fuentes internas y externas.
