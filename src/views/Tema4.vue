@@ -22,7 +22,7 @@
           img(src='@/assets/curso/temas/tema4/img1.png', alt='Texto que describa la imagen')
       .col-lg-8.sm-8.mt-3
         figure
-          img(src='@/assets/curso/temas/tema4/img2.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema4/img2.png', alt='Texto que describa la imagen')
 
     .bg3
       .row.justify-content-around.align-items-centerrd.mt-4 
