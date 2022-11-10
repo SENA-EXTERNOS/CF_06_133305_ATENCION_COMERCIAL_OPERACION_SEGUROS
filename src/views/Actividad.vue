@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-puzzle-piece" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-segundo.color-acento-contenido
-      h2  Falso / Verdadero
+      h2  Preparación, análisis y presentación de datos masivos
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
