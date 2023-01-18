@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Preparación, análisis y presentación de datos masivos',
     descripcionCurso:
-      'En las organizaciones los procesos de gestión de datos masivos son necesarios para la toma de decisiones y la buena gestión, para tal fin se requiere de una metodología estructurada que consta de la identificación, el análisis y la depuración de la información recopilada que permita definir un modelo de datos relacional y poder hacer representaciones gráficas de los datos procesados.',
+      'En este componente, se indica cómo, los procesos de gestión de datos masivos, son necesarios para la toma de decisiones y la buena gestión. Para tal fin, se requiere de una metodología estructurada que consiste en la identificación, el análisis y la depuración de la información recopilada, que permita definir un modelo de datos relacional y poder hacer representaciones gráficas de los datos procesados.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -38,13 +38,13 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Organización ',
+        titulo: 'La organización  ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Características y tipos',
+            titulo: 'Características y tipos de las organizaciones',
             hash: 't_1_1',
           },
           {
@@ -60,7 +60,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Ciencia de datos ',
+        titulo: 'Ciencia de datos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -157,30 +157,30 @@ export default {
   },
   complementario: [
     {
-      tema: 'Ciclo de vida',
+      tema: 'Técnicas de gestión de bases de datos masivos',
       referencia:
-        'Yaqoob, I., Targio Hashem, I. A., Inayat, Z., Mahmoud Ali, W. K., Alam, M., Shiraz, M. y Gani, A. (2014). Big Data: Survey, Technologies, Opportunities, and Challenges. The Scientific World Journal 2014, article 712826. ',
+        'La revista del mundo científico (2014). <i>Big Data: Encuesta, Tecnologías, Oportunidades y Desafíos</i>. Hindawi.',
       tipo: 'Artículo',
       link: 'http://dx.doi.org/10.1155/2014/712826',
     },
     {
-      tema: 'Derechos de autor',
+      tema: 'Técnicas de gestión de bases de datos masivos',
       referencia:
-        'Martínez Martínez, R. (2017). Cuestiones de ética jurídica al abordar proyectos de Big Data. El contexto del Reglamento general de protección de datos. Dilemata, (24), 151-164. ',
+        'Martínez, R. (2017). Cuestiones de ética jurídica al abordar proyectos de Big Data. <i>El contexto del Reglamento general de protección de datos</i>, (24), p. 151-164.',
       tipo: 'Artículo',
       link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=6066833',
     },
     {
-      tema: 'Ingeniería de requisitos',
+      tema: 'Ciencia de datos',
       referencia:
-        'Martínez Martínez, R. (2017). Cuestiones de ética jurídica al abordar proyectos de Big Data. El contexto del Reglamento general de protección de datos. Dilemata, (24), 151-164. ',
+        'Carrizo, D. & Rojas, J. (2018). Metodologías, técnicas y herramientas en ingeniería de requisitos: un mapeo sistemático. <i>Ingeniare, 26</i>(3), p. 473-485.',
       tipo: 'Artículo',
       link: 'http://dx.doi.org/10.4067/S0718-33052018000300473',
     },
     {
-      tema: 'Ingeniería de requisitos',
+      tema: 'Ciencia de datos',
       referencia:
-        'Bonfante, M. C., Blanquicett, L. A., Díaz Infante, E. y Guerra García, C. (2018). Reference model for the integration of business modeling to requirements engineering: a proposal from the software industry. Ingeniare. Rev. chil. Ing., 26(4), pp. 645-653.',
+        'Bonfante, M., Blanquicett, L., Díaz, E. & Guerra, C. (2018). Modelo de Referencia para la Integración del Modelado de Negocios a la Ingeniería de Requerimientos: Una Propuesta de la Industria del Software. <i>Revista chilena de Ingeniería, 26</i>(4), p. 645-653.',
       tipo: 'Artículo',
       link:
         'https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-33052018000400645&lng=en&nrm=iso&tlng=en',
@@ -218,7 +218,7 @@ export default {
     },
     {
       termino: 'Largo plazo',
-      significado: 'se refiere al tiempo mayor a un año',
+      significado: 'se refiere al tiempo mayor a un año.',
     },
     {
       termino: 'Licencia',
@@ -239,21 +239,21 @@ export default {
   referencias: [
     {
       referencia:
-        'Borja, D. (2017). <em>Matemáticas en contexto.<em> Bogotá, Colombia: Magisterio',
-      link: '',
+        'Borja, D. (2017). <em>Matemáticas en contexto.<em> Magisterio.',
     },
     {
       referencia:
-        'García, J. y Maroto, F. (2018). <em> Interpretación de resultados estadísticos.<em> Medicina Intensiva, 42(6), p.370-379.',
+        'García, J. & Maroto, F. (2018). Interpretación de resultados estadísticos. <i>Medicina Intensiva</i>, 42(6), p. 370-379.',
       link: 'https://doi.org/10.1016/j.medin.2017.12.013 ',
     },
     {
-      referencia: 'Power Data. (s.f.). <em>Power Data.<em> Obtenido de ',
+      referencia:
+        'Power Data (s.f.). <i>Big Data: ¿En qué consiste? Su importancia, desafíos y gobernabilidad</i>. Powerdata.',
       link: 'https://www.powerdata.es/big-data',
     },
     {
       referencia:
-        'Power Data. (2014, 5 de marzo). <em>Las 6 dimensiones de la calidad de los datos.<em> Obtenido de',
+        'Power Data (2014). <i>Las 6 dimensiones de la calidad de los datos</i>. Powerdata.',
       link:
         'https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/bid/368790/las-6-dimensiones-de-la-calidad-de-los-datos',
     },

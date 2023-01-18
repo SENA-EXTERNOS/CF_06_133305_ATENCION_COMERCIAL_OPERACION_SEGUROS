@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bloque-fondo1
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bloque-fondot6
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
@@ -9,42 +9,43 @@
 
     .bloque-texto-b.color-cajon.p-1
           .bloque-texto-b__texto
-            p En la misma medida que crecen las organizaciones, los datos recopilados se deben ir estructurando con el fin de tomar decisiones importantes que conlleven a consolidar y proyectar mejor la empresa. Es por esto que se hace necesario el uso de las bases de datos. Estas son una colección organizada de información estructurada o de datos, normalmente almacenados electrónicamente en un sistema informático. Generalmente está controlada por un sistema de administración de bases de datos (DBMS, por su nombre en inglés). En la Figura 4 se pueden observar las cinco características principales de una base de datos.
+            p En la misma medida que crecen las organizaciones, los datos recopilados se deben ir estructurando con el fin de tomar decisiones importantes que conlleven a consolidar y proyectar mejor la empresa. Es por esto que se hace necesario el uso de las bases de datos. Estas son una colección organizada de información estructurada o de datos, normalmente almacenados electrónicamente en un sistema informático. Generalmente está controlada por un sistema de administración de bases de datos (DBMS, por su nombre en inglés). 
 
-    .row.justify-content-center.mt-4
+    p.mt-5 Observe, en la siguiente figura, las cinco características principales de una base de datos: 
+
+    .row.justify-content-center.mt-5
       .col-lg-10.sm-8
-        .titulo-sexto.color-acento-contenido.mt-4
-          b Figura 4. 
-          | Características de una base de datos
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 <b>Figura 4</b> <br> <i>Características de una base de datos</i>
 
     
         figure
-          img(src='@/assets/curso/temas/tema4/img1.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema4/img1.png', alt='')
       .col-lg-8.sm-8.mt-3
         figure
-          img(src='@/assets/curso/temas/tema4/img2.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema4/img2.png', alt='')
 
     .bg3
-      .row.justify-content-around.align-items-centerrd.mt-4 
+      .row.justify-content-around.align-items-centerrd.mt-5 
         .col-8
-          .tarjeta.color-secundario.p-2.mt-2
+          .tarjeta.color-secundario.p-3.mt-2
             .row.justify-content-around.align-items-center
               .col-lg-2
                 img(src="@/assets/curso/temas/tema4/img3.svg" )
               .col-10
-                .row
+                .row.align-items-center
                   .col.mb-3.mb-sm-0
                     h3.mb-1 Características y clasificación de las bases de datos
-                    p.text-small Para abordar cada una de las características y los tipos de bases de datos, lo invitamos a descargar el documento.
+                    p.mb-0 Para abordar cada una de las características y los tipos de bases de datos, lo invitamos a descargar el documento.
                   .col-sm-auto
-                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 3 Características y clasificación de las bases de datos.pdf')" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_3_Caracteristicas_y_clasificacion_de_las_bases_de_datos.pdf')" target="_blank")
                       span Descargar
-                      i.fas.fa-file-downloa
+                      i.fas.fa-file-download
 
       
       h5.mt-5 Herramientas de gestión de bases de datos
 
-      p.mt-4 Toda organización necesita una herramienta tecnológica de base de datos bien diseñada, dado que encontrar un sistema funcional y bien organizado, que le permita a su equipo realizar, fácilmente, tareas relacionadas con datos, es crucial para el éxito de un negocio. Dentro de las principales herramientas tecnológicas se encuentran las siguientes:
+      p.mt-5 Toda organización necesita una herramienta tecnológica de base de datos bien diseñada, dado que encontrar un sistema funcional y bien organizado, que le permita a su equipo realizar, fácilmente, tareas relacionadas con datos, es crucial para el éxito de un negocio. Dentro de las principales herramientas tecnológicas se encuentran las siguientes:
 
       
       .row.justify-content-center.align-items-start.mt-5   
@@ -102,21 +103,21 @@
                 | Redes de colaboración de bases de datos
 
 
-      .row.justify-content-around.align-items-centerrd.mt-4
+      .row.justify-content-around.align-items-centerrd.mt-5
         .col-8
-          .tarjeta.color-secundario.p-2.mt-2
+          .tarjeta.color-secundario.p-3.mt-2
             .row.justify-content-around.align-items-center
               .col-lg-2
                 img(src="@/assets/curso/temas/tema4/img3.svg" )
               .col-9
-                .row
+                .row.align-items-center
                   .col.mb-3.mb-sm-0
                     h3.mb-1 Herramientas tecnológicas de bases de datos
-                    p.text-small Para conocer sobre cada una de estas herramientas, lo invitamos a descargar el documento. 
+                    p.mb-0 Para conocer sobre cada una de estas herramientas, lo invitamos a descargar el documento. 
                   .col-sm-auto
-                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 4  Herramientas tecnológicas de bases de datos.pdf')" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_4_Herramientas_tecnologicas_de_bases_de_datos.pdf')" target="_blank")
                       span Descargar
-                      i.fas.fa-file-downloa
+                      i.fas.fa-file-download
 
       h5.mt-5 #[i Big data:] modelos y sistemas de gestión
 
@@ -139,14 +140,14 @@
             img(src='@/assets/curso/temas/tema4/img5.png')
 
 
-      p.mt-4 Los modelos de datos y su gestión apuntan al diseño estructurado de un modelo que permita el procesamiento de datos para su posterior análisis y presentación.
+      p.mt-5 Los modelos de datos y su gestión apuntan al diseño estructurado de un modelo que permita el procesamiento de datos para su posterior análisis y presentación.
 
       .tarjeta--container.row.mb-5
         .col-md.tarjeta.color-greeoscuro.p-5
           .row.justify-content-center.mb-4
             .col-6
               figure
-                img(src='@/assets/curso/temas/tema4/img6.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema4/img6.png', alt='')
             
           h2.text-center ¿Qué es un modelo de datos?
           p.text-center Los buenos datos permiten a las organizaciones establecer puntos de referencia y objetivos para seguir avanzando. Para que los datos permitan esta medición, estos deben organizarse de acuerdo con su descripción, semántica y las restricciones de coherencia que se les imponga. Un modelo de datos es abstracto y permite la construcción adicional de modelos conceptuales, además de establecer relaciones entre distintos elementos.
@@ -155,7 +156,7 @@
           .row.justify-content-center.mb-4
             .col-6
               figure
-                img(src='@/assets/curso/temas/tema4/img7.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema4/img7.png', alt='')
             
           h2.text-center Sistema de gestión de base de datos (DBMS)
           p.text-center Este sistema es el motor que permite a los usuarios acceder a los datos y a lo que se conoce como esquema de base de datos o la estructura organizacional de una base de datos. En general, ofrece seguridad y garantiza la integridad de los datos. Algunos de estos sistemas se usan para ofrecer reversiones automatizadas y actividades de reinicio, registro y auditoría.
@@ -169,9 +170,8 @@
       p.mt3 En el siguiente esquema se presentan las ventajas y desventajas de los DBMS.
 
 
-      .titulo-sexto.color-acento-contenido.mt-4
-            b Tabla 1. 
-            | Ventajas y desventajas de los DBMS
+      .titulo-sexto.color-acento-contenido
+        p.mb-0 <b>Tabla 1</b> <br> <i>Ventajas y desventajas de los DBMS</i>
 
 
    

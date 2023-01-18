@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bloque-fondo1
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bloque-fondot6
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
@@ -19,22 +19,19 @@
 
     h5.mt-3 Ciclo de vida 
 
-    p.mt-4 La ciencia de datos cuenta con un 
-      b ciclo de vida, 
-      | definido como un conjunto interactivo de pasos o etapas que se deben tomar para entregar un proyecto o análisis. Puesto que cada proyecto y equipo de trabajo de ciencia de datos son diferentes, cada ciclo de vida específico es diferente. Sin embargo, la mayoría de los proyectos de ciencia de datos tienden a fluir a través de los mismos pasos generales. En la Figura 2, se evidencian los cinco pasos de este ciclo.
-
-    .row.justify-content-center.mt-4
+    p.mt-5 La ciencia de datos cuenta con un <i>ciclo de vida</i>, definido como un conjunto interactivo de pasos o etapas que se deben tomar para entregar un proyecto o análisis. Puesto que cada proyecto y equipo de trabajo de ciencia de datos son diferentes, cada ciclo de vida específico, es diferente. Sin embargo, la mayoría de los proyectos de ciencia de datos tienden a fluir a través de los mismos pasos generales. 
+    p El siguiente esquema evidencia los cinco pasos de este ciclo:
+    .row.justify-content-center.mt-5
       .col-lg-8.sm-8
-        .titulo-sexto.color-acento-contenido.mt-4
-          b Figura 2. 
-          | Pasos del ciclo de vida de la ciencia de datos
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 <b>Figura 2</b> <br> <i>Pasos del ciclo de vida de la ciencia de datos</i>
 
         .row.justify-content-around.align-items-center.mt-2
           .col-11
           figure
           img(src='@/assets/curso/temas/tema2/img2.png')
 
-    p.mt-4 Estos pasos no son estrictamente lineales. Se debe iniciar con el paso uno y luego continuar con el paso dos. Sin embargo, los siguientes pasos deben darse naturalmente, sin importar el orden, según cada caso. Varios pasos pequeños e iterativos son mejores que unas pocas fases integrales más grandes.  #[b El ciclo de vida se centra en los pasos del proyecto. ]
+    p.mt-5 Estos pasos no son estrictamente lineales. Se debe iniciar con el paso uno y luego continuar con el paso dos. Sin embargo, los siguientes pasos deben darse naturalmente, sin importar el orden, según cada caso. Varios pasos pequeños e iterativos son mejores que unas pocas fases integrales más grandes.  #[b El ciclo de vida se centra en los pasos del proyecto. ]
      
 
      separador
@@ -54,10 +51,9 @@
             .cajon.color-primario.p-4
               p Asimismo, los métodos y las técnicas de análisis de datos son útiles para encontrar tendencias, métricas, hechos y cifras. Estos se pueden utilizar de forma independiente o en combinación con otras técnicas y otros métodos para ayudar tanto a líderes o gerentes como a los responsables de tomar decisiones a adquirir conocimientos empresariales, a partir de diferentes tipos de datos.
 
-      p.mt-4 Estas técnicas y estos métodos pueden ser utilizados para el análisis de datos 
+      p.mt-5 Estas técnicas y estos métodos pueden ser utilizados para el análisis de datos 
         b cualitativos o cuantitativos.
-      p A continuación, se abordará cada una de las técnicas de análisis de datos.
-
+      p Las siguientes, son las técnicas de análisis de datos; preste suma atención:
       
     
       PasosA.color-secundario.mb-5(tipo="n")
@@ -67,13 +63,13 @@
             p Este análisis implica trabajar con variables numéricas como la estadística, los porcentajes, los cálculos o las medidas, ya que la naturaleza de los datos cuantitativos es netamente numérica. Las técnicas de análisis de datos cuantitativos generalmente implican trabajar con algoritmos, herramientas de análisis matemático y software para manipular datos y descubrir información que revele el valor de, por ejemplo, un negocio.
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema2/img4.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img4.png', alt='')
               
 
         .row
           .col-md-5.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema2/img5.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img5.png', alt='')
               
           .col-md-5
             h3 Técnicas de análisis de datos cualitativos
@@ -84,13 +80,13 @@
 
       p De la misma manera como existen técnicas, también se cuenta con diferentes modelos para el análisis de datos. Estos son de naturaleza cuantitativa y se utilizan para responder una pregunta puntual o tomar una decisión de diseño específica. Son diferentes los modelos analíticos para abordar diferentes aspectos del sistema, como también lo es su rendimiento, confiabilidad y sus propiedades.
 
-      p En el siguiente video podrá conocer cuáles son los distintos modelos que existen.
+      p.mb-5 En el siguiente video podrá conocer cuáles son los diferentes modelos que existen:
 
 
       figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption VIDEO
+        
 
 
       separador
@@ -119,7 +115,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img7.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img7.png', alt='')
               
 
         .row(titulo="Alcances")
@@ -130,73 +126,65 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img8.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img8.png', alt='')
 
     h5.mt-2 Recopilación de datos
 
-     p.mt-3 Otro aspecto importante en la ciencia de datos es la 
-      b recopilación, 
-      | la cual es el proceso metodológico de reunir información sobre un tema específico. Es crucial asegurar que los datos estén completos durante la fase y que estos se recopilen de manera legal y ética. De lo contrario, su análisis no será preciso y podría tener consecuencias de distinta índole y largo alcance.       
+     p.mt-3 Otro aspecto importante en la ciencia de datos es la <b>recopilación</b>: proceso metodológico de reunir información sobre un tema específico. Es crucial asegurar que los datos estén completos durante la fase y que estos se recopilen de manera legal y ética. De lo contrario, su análisis no será preciso y podría tener consecuencias de distinta índole y largo alcance.   
               
-    p.mt-4 En general, existen tres tipos de datos de consumo a recopilar. Estos se describen a continuación.   
-
-
-
-
-
-        TabsA.color-primario.orangecolor.mt-4  
-          .tarjeta.colorblue.p-4(titulo="Datos propios")       
-            .row
-              .col-xl-2.mb-4
-                figure
-                  img(src='@/assets/curso/temas/tema2/img9.svg', alt='Texto que describa la imagen')
-                 
-              .col-xl-10
-                
-                p Los recopila una organización directamente de los usuarios y los clientes.
-
-          .tarjeta.colorblue.p-4(titulo="Datos de la segunda parte")
-
-            .row
-              .col-xl-2.mb-4
-                figure
-                  img(src='@/assets/curso/temas/tema2/img10.svg', alt='Texto que describa la imagen')
-                 
-              .col-xl-10
-               
-                p Datos de clientes o datos de primera parte que comparte una organización con otra.
-          
-          .tarjeta.colorblue.p-4(titulo="Datos de terceros")
+    p.mt-5 En general, existen tres tipos de datos de consumo a recopilar. Estos se describen a continuación:
+    TabsA.color-primario.orangecolor.mt-5  
+      .tarjeta.colorblue.p-4(titulo="Datos propios")       
+        .row
+          .col-xl-2.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema2/img9.svg', alt='')
+              
+          .col-xl-10
             
-            .row
-              .col-xl-2.mb-4
-                figure
-                  img(src='@/assets/curso/temas/tema2/img11.svg', alt='Texto que describa la imagen')
-                 
-              .col-xl-10
-               
-                p Son los datos agregados alquilados o vendidos por organizaciones que no tienen conexión con la organización o los usuarios.
+            p Los recopila una organización directamente de los usuarios y los clientes.
 
-    p Para la recopilación de datos existen diferentes métodos, tales como las encuestas, el seguimiento transaccional, las entrevistas y los grupos focales, la observación, el seguimiento en línea, los formularios o el monitoreo de redes sociales.
+      .tarjeta.colorblue.p-4(titulo="Datos de la segunda parte")
+
+        .row
+          .col-xl-2.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema2/img10.svg', alt='')
+              
+          .col-xl-10
+            
+            p Datos de clientes o datos de primera parte que comparte una organización con otra.
+      
+      .tarjeta.colorblue.p-4(titulo="Datos de terceros")
+        
+        .row
+          .col-xl-2.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema2/img11.svg', alt='')
+              
+          .col-xl-10
+            
+            p Son los datos agregados alquilados o vendidos por organizaciones que no tienen conexión con la organización o los usuarios.
+
+    p.mt-5 Para la recopilación de datos existen diferentes métodos, tales como las encuestas, el seguimiento transaccional, las entrevistas y los grupos focales, la observación, el seguimiento en línea, los formularios o el monitoreo de redes sociales.
     .row.justify-content-center
       .col-lg-8.sm-8
         .cajon.color-secundario.colorcajontema2.p-4
-            p Los datos no solo son recopilados, sino también integrados, lo que implica combinar cuidadosamente las diferentes fuentes de la organización para que los analistas, los usuarios y las aplicaciones puedan tener acceso a una imagen completa de toda la organización. Abordar esta importante tarea tiene numerosos beneficios como la eliminación de silos de datos, la mejora de la colaboración, el apoyo para una mejor toma de decisiones y la mejora de la calidad e integridad de los datos.
+            p Los datos no solo son recopilados, sino también integrados, lo que implica combinar cuidadosamente las diferentes fuentes de la organización para que los analistas, los usuarios y las aplicaciones, puedan tener acceso a una imagen completa de toda la organización. Abordar esta importante tarea, tiene numerosos beneficios como la eliminación de silos de datos, la mejora de la colaboración, el apoyo para una mejor toma de decisiones y la mejora de la calidad e integridad de los datos.
 
 
-    .row.justify-content-around.align-items-centerrd.mt-4
+    .row.justify-content-around.align-items-centerrd.mt-5
       .col-8
-        .tarjeta.color-secundario.p-2.mt-2
+        .tarjeta.color-secundario.p-3.mt-2
           .row.justify-content-around.align-items-center
             .col-lg-2
               img(src="@/assets/curso/temas/tema2/img12.svg" )
             .col-10
               .row
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Métodos de recopilación e integración de datos
-                  p.text-small Para abordar cada uno de estos métodos, lo invitamos a descargar el documento 
+                  p.mb-0 Profundice en cada uno de estos métodos, explorando y estudiando el Anexo: Métodos de recopilación de datos. <b>¡Adelante!</b>
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo2Métodosderecopilacióneintegracióndedatos.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo2Metodosderecopilacioneintegraciondedatos.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -209,19 +197,19 @@
       h2 2.3 Preparación de datos estructurados y ecosistemas de datos abiertos
 
 
-    p La preparación es una parte clave de la ciencia de datos. La mayoría de veces, los datos que tiene una organización no se pueden usar de inmediato para su análisis. Generalmente, estos requieren cierta manipulación y adaptación, sobre todo si es necesario agregar otras fuentes al análisis. En la Figura 3 se presentan los pasos para preparar datos.
+    p La preparación es una parte clave de la ciencia de datos. La mayoría de las veces, los datos que tiene una organización no se pueden usar de inmediato para su análisis. Generalmente, estos requieren cierta manipulación y adaptación, sobre todo si es necesario agregar otras fuentes al análisis. 
 
-    .titulo-sexto.color-acento-contenido.mt-4
-          b Figura 3. 
-          | Pasos para la preparación de datos
+    p.mb-5 Analice la siguiente figura, donde se presentan los pasos para preparar datos:
+
+
+    .titulo-sexto.color-acento-contenido
+      p.mb-0 <b>Figura 3</b> <br> <i>Pasos para la preparación de datos</i>
     
-    col-lg-9
-      figure
-        img(src="@/assets/curso/temas/tema2/img13.png" )
+    img.img-a.img-t(src="@/assets/curso/temas/tema2/img13.png" )
 
 
 
-    h5.mt-4 Ecosistemas de datos abiertos
+    h5.mt-5 Ecosistemas de datos abiertos
 
 
     .row
@@ -246,11 +234,11 @@
         figure
           img(src='@/assets/curso/temas/tema2/img14.png')
 
-    h5.mt-4 Fases
+    h5.mt-5 Fases de los ecosistemas de datos
 
-    p.mt-4 Los ecosistemas de datos se caracterizan por tener las siguientes fases: detección, colección, disputas, análisis y almacenamiento.
+    p.mt-5 Los ecosistemas de datos se caracterizan por tener las siguientes fases: detección, colección, disputas, análisis y almacenamiento.
 
-    p.mt-4 A continuación, se describe cada una de estas fases.
+    p.mt-5 A continuación, se describe cada una de estas fases:
 
     .row.justify-content-center         
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -299,25 +287,8 @@
             .tarjeta-flip__contenido.p-4.p-xl-5
             
               
-              p A lo largo de todas las etapas del ciclo de vida de los datos, estos deben almacenarse de manera segura y accesible. El medio exacto utilizado para el almacenamiento está determinado por los procedimientos de gobierno de datos de cada organización
+              p A lo largo de todas las etapas del ciclo de vida de los datos, estos deben almacenarse de manera segura y accesible. El medio exacto utilizado para el almacenamiento está determinado por los procedimientos de gobierno de datos de cada organización.
     
-    
-    
-  
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </template>

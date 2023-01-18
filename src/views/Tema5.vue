@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bloque-fondot5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bloque-fondot6
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
@@ -21,39 +21,39 @@
 
       h5.mt-2  Características del  #[i big data ]
 
-      p.mt-4 Los desafíos en el manejo y almacenamiento de 
+      p.mt-5 Los desafíos en el manejo y almacenamiento de 
         i big data 
         | son aspectos que las organizaciones deben reconocer y frente a los que estas deben generar acciones para garantizar su manejo. 
 
-      p.mt-3 A continuación, se presenta una descripción de los desafíos que enfrentan la gestión y el almacenamiento de 
-        i big data.
+      p.mt-3 A continuación, se presenta una descripción de los desafíos que enfrentan la gestión y el almacenamiento de <i>Big data</i>:
 
 
     .row.justify-content-center.mb-4
       .col-lg-4
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--vereee")
-        .row(titulo="Principales desafíos en la gestión de big data") 
+        .row(titulo="Principales desafíos") 
           
           .col-md-5.mb-4.mb-md-0
             p.ms-5 Los grandes datos suelen ser complejos. Además de su volumen y variedad, a menudo incluyen datos de transmisión y otros tipos de datos que se crean y actualizan a gran velocidad. Como resultado, el procesamiento y la gestión de big data son tareas complicadas
           .col-md-5.ms-5
             figure
-              img(src='@/assets/curso/temas/tema5/img2.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/img2.png', alt='')
               
 
         .row(titulo="Almacenamiento ")
           .col-md-5.mb-4.mb-md-0
-            p.ms-5 La infraestructura de almacenamiento de big data está diseñada específicamente para guardar, administrar y recuperar cantidades masivas de datos. Esta permite el almacenamiento y la clasificación de tal manera que las aplicaciones y los servicios que trabajan con big data puedan acceder a ellos, utilizarlos y procesarlos con facilidad.
-            p.ms-5.mt-3 Por lo general, el almacenamiento de big data se compone de unidades de disco duro, debido al menor costo de estos medios. Sin embargo, el almacenamiento flash está ganando popularidad, por su costo decreciente. Los sistemas pueden construirse exclusivamente en medios flash o como híbridos de flash y almacenamiento en disco
+            p.ms-5 La infraestructura de almacenamiento de <i>Big data</i> está diseñada específicamente para guardar, administrar y recuperar cantidades masivas de datos. Esta infraestructura permite el almacenamiento y la clasificación, de tal manera que las aplicaciones y los servicios que trabajan con <i>Big data</i> puedan acceder a ellos, utilizarlos y procesarlos con facilidad.
+            p.ms-5 Por lo general, el almacenamiento de <i>Big data</i> se compone de unidades de disco duro, debido al menor costo de estos medios. Sin embargo, el almacenamiento <i>flash</i> está ganando popularidad, por su costo decreciente. Los sistemas pueden construirse exclusivamente en medios <i>flash</i> o como híbridos de <i>flash</i> y almacenamiento en disco.
+
           .col-md-5.ms-5
             figure
-              img(src='@/assets/curso/temas/tema5/img12.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/img12.png', alt='')
 
       h5.mt-2  Lenguaje de manipulación y herramientas para el análisis de datos
 
-      p.mt-4 Existe una amplia variedad de plataformas y herramientas para administrar big data, con versiones comerciales y de código abierto disponibles. Para su uso es necesario conocer su lenguaje de manipulación.
+      p.mt-5 Existe una amplia variedad de plataformas y herramientas para administrar big data, con versiones comerciales y de código abierto disponibles. Para su uso es necesario conocer su lenguaje de manipulación.
 
-      p.mt-2 A continuación, se abordan las herramientas para el análisis de datos y el lenguaje de manipulación.
+      p.mb-5 Estas son algunas herramientas para el análisis de datos y el lenguaje de manipulación:
     
       TabsB.color-acento-contenido.mb-5
         .py-4.py-md-5.colorpesta(titulo="Lenguaje de manipulación" :icono="require('@/assets/curso/temas/tema5/img3.svg')")
@@ -64,7 +64,7 @@
             .col-lg-1
             .col-md-3
               figure
-                img(src='@/assets/curso/temas/tema5/img5.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema5/img5.png', alt='')
               
         .py-4.py-md-5.colorpesta(titulo="Herramientas para el análisis de datos " :icono="require('@/assets/curso/temas/tema5/img4.svg')")
           .row
@@ -74,27 +74,27 @@
             .col-lg-1
             .col-md-3
               figure
-                img(src='@/assets/curso/temas/tema5/img6.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema5/img6.png', alt='')
               
     h5.mt-2  Técnicas de transformación de datos 
 
-    p.mt-4 La transformación de datos es el mapeo y conversión de un formato a otro. Las herramientas y técnicas utilizadas para la transformación de datos dependen del formato, la complejidad, la estructura y el volumen de estos. Dichas técnicas permiten a un desarrollador traducir entre formatos de datos XML, no XML y Java. Con ello, facilitan una integración rápida de aplicaciones heterogéneas, independientemente del formato utilizado para representar los datos.
-
-      .row.justify-content-around.align-items-centerrd.mt-4
-        .col-8
-          .tarjeta.color-secundario.p-2.mt-2
-            .row.justify-content-around.align-items-center
-              .col-lg-2
-                img(src="@/assets/curso/temas/tema4/img3.svg" )
-              .col-9
-                .row
-                  .col.mb-3.mb-sm-0
-                    h3.mb-1 Técnicas de transformación de datos 
-                    p.text-small Algunas técnicas de transformación de datos son:
-                  .col-sm-auto
-                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo 5 - Técnicas de gestión de bases de datos masivos  (1).pdf')" target="_blank")
-                      span Descargar
-                      i.fas.fa-file-downloa
+    p.my-5 La transformación de datos es el mapeo y conversión de un formato a otro. Las herramientas y técnicas utilizadas para la transformación de datos dependen del formato, la complejidad, la estructura y el volumen de estos. Dichas técnicas permiten a un desarrollador traducir entre formatos de datos XML, no XML y Java. Con ello, facilitan una integración rápida de aplicaciones heterogéneas, independientemente del formato utilizado para representar los datos.
+    img.img-a.img-t(src='@/assets/curso/temas/tema5/1.svg', alt='')
+    //- .row.justify-content-around.align-items-centerrd.mt-5
+    //-   .col-8
+    //-     .tarjeta.color-secundario.p-2.mt-2
+    //-       .row.justify-content-around.align-items-center
+    //-         .col-lg-2
+    //-           img(src="@/assets/curso/temas/tema4/img3.svg" )
+    //-         .col-9
+    //-           .row
+    //-             .col.mb-3.mb-sm-0
+    //-               h3.mb-1 Técnicas de transformación de datos 
+    //-               p Algunas técnicas de transformación de datos son:
+    //-             .col-sm-auto
+    //-               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_5_Tecnicas_de_gestion_de_bases_de_datos_masivos.pdf')" target="_blank")
+    //-                 span Descargar
+    //-                 i.fas.fa-file-downloa
 
 
 </template>
