@@ -22,8 +22,7 @@
             p.mb-0 En el análisis de datos se utilizan dos modelos: <b>la estadística descriptiva</b>, que resume los datos mediante índices como la media o la mediana y la <b>estadística inferencial</b>, que extrae conclusiones de los datos mediante pruebas estadísticas como la prueba <b>t de <i>Student</i></b>. 
 
     h5.mt-5 Ejemplos de métodos estadísticos
-    p.mt-5 En el análisis de datos se utilizan dos modelos: la estadística descriptiva, que resume los datos mediante índices como la media o la mediana y la estadística inferencial, que extrae conclusiones de los datos mediante pruebas estadísticas como la prueba t de Student. 
-
+    p.mt-5 A continuación, se presenta una lista de métodos estadísticos; procure tomar nota de lo más destacado:
 
     TabsA.color-primario.orangecolor.mt-5  
       .tarjeta.colorblue.p-4(titulo="Riesgos enfermedades")       

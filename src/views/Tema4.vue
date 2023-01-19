@@ -20,10 +20,10 @@
 
     
         figure
-          img(src='@/assets/curso/temas/tema4/img1.png', alt='')
+          img(src='@/assets/curso/temas/tema4/2.svg', alt='')
       .col-lg-8.sm-8.mt-3
         figure
-          img(src='@/assets/curso/temas/tema4/img2.png', alt='')
+          img(src='@/assets/curso/temas/tema4/1.svg', alt='')
 
     .bg3
       .row.justify-content-around.align-items-centerrd.mt-5 
@@ -49,58 +49,58 @@
 
       
       .row.justify-content-center.align-items-start.mt-5   
-          .col-lg-4
+          .col-lg-6
               img(src='@/assets/curso/temas/tema4/img4.svg')                   
                         
-          .col-lg-7.ms-5         
+          .col-lg-6         
             
             ul.lista-ul--
-              li 
-                i.fas.fa-angle-right.yelllow
-                | MySQL
+              li.mb-2 
+                i.fas.fa-angle-right.yelllow.me-2
+                | MySQL.
               
-              li 
-                i.fas.fa-angle-right.yelllow
-                | Estudio de administración de SQL Server
-              li 
-                i.fas.fa-angle-right.yelllow
-                | RDBMS de Oracle
-              li 
-                i.fas.fa-angle-right.yelllow
+              li.mb-2 
+                i.fas.fa-angle-right.yelllow.me-2
+                | Estudio de administración de SQL Server.
+              li.mb-2 
+                i.fas.fa-angle-right.yelllow.me-2
+                | RDBMS de Oracle.
+              li.mb-2 
+                i.fas.fa-angle-right.yelllow.me-2
                 | Salesforce y otros 
                 i softwares 
-                | de ventas o CRM
-              li 
-                i.fas.fa-angle-right.yelllow
-                | DevOps
+                | de ventas o CRM.
+              li.mb-2 
+                i.fas.fa-angle-right.yelllow.me-2
+                | DevOps.
 
-              li 
-                i.fas.fa-angle-right.yelllow
-                | VS Code
+              li.mb-2 
+                i.fas.fa-angle-right.yelllow.me-2
+                | VS Code.
               
-              li 
-                i.fas.fa-angle-right.yelllow
-                | Herramientas ESM
+              li.mb-2 
+                i.fas.fa-angle-right.yelllow.me-2
+                | Herramientas ESM.
+
+              li.mb-2 
+                i.fas.fa-angle-right.yelllow.me-2
+                i phpMyAdmin.
+
+              li.mb-2 
+                i.fas.fa-angle-right.yelllow.me-2
+                | Herramientas que brindan suficiente acceso.
+
+              li.mb-2 
+                i.fas.fa-angle-right.yelllow.me-2
+                | Marcos que permiten consumir, consultar y analizar fuentes de datos.
+
+              li.mb-2 
+                i.fas.fa-angle-right.yelllow.me-2
+                | Sistemas apropiados para el tamaño de cada conjunto de datos.
 
               li 
-                i.fas.fa-angle-right.yelllow
-                i phpMyAdmin
-
-              li 
-                i.fas.fa-angle-right.yelllow
-                | Herramientas que brindan suficiente acceso
-
-              li 
-                i.fas.fa-angle-right.yelllow
-                | Marcos que permiten consumir, consultar y analizar fuentes de datos
-
-              li 
-                i.fas.fa-angle-right.yelllow
-                | Sistemas apropiados para el tamaño de cada conjunto de datos
-
-              li 
-                i.fas.fa-angle-right.yelllow
-                | Redes de colaboración de bases de datos
+                i.fas.fa-angle-right.yelllow.me-2
+                | Redes de colaboración de bases de datos.
 
 
       .row.justify-content-around.align-items-centerrd.mt-5

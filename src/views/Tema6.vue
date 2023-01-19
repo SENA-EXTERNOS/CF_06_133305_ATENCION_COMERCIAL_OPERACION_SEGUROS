@@ -14,6 +14,8 @@
         .cajon.color-primario.colorcajontema2.p-4
             p La protección de los derechos de autor otorga al creador o la creadora de una obra creativa el derecho exclusivo de producirla, copiarla, venderla o utilizarla. Todos los demás que deseen hacer uso de material protegido por derechos de autor están legalmente obligados a obtener el permiso del titular de los derechos.
 
+    h4.mt-5 Protección de la propiedad intelectual
+
     p.mt-5 Teniendo en cuenta lo mencionado anteriormente, entonces, la protección de la propiedad intelectual se da a las creaciones resultantes del intelecto humano y comprende tanto la propiedad industrial como los derechos de autor.    
     p La propiedad industrial protege las creaciones como los inventos, los modelos de utilidad, los diseños industriales, los signos distintivos, entre otros, debidamente registrados ante la autoridad nacional que, en Colombia, se denomina la Superintendencia de Industria y Comercio (SIC).
 
