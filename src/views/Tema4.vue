@@ -125,7 +125,7 @@
       .row
         .col-lg-6.mt-5
           p La necesidad de contar con herramientas y procesos claros no se reduce únicamente a las bases de datos, pues, dentro de una infraestructura definida 
-            b (arquitectura #[i big data)]  
+            b (arquitectura #[i big data) ]  
             | se revisten de gran importancia los modelos 
             i big data. 
             | El análisis de 

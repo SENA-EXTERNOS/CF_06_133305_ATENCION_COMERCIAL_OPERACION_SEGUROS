@@ -7,14 +7,14 @@
         span 3
       h1 Estadística 
 
-    .row
+    .row.mb-4
       .col-lg-6.mt-3
         p La estadística, siendo una disciplina de la ciencia matemática que estudia las probabilidades de ocurrencia de fenómenos en el tiempo, utiliza datos históricos o actuales; esto es porque a través de sus técnicas y/o métodos, organiza y analiza las fuentes numéricas de datos y permite establecer conclusiones numéricas y gráficas, respecto al comportamiento de los fenómenos en el momento actual, y hacer proyecciones futuras (García y Maroto, 2018, pp.370-379). 
       .col-lg-5
         figure
           img(src='@/assets/curso/temas/tema3/img1.png')
-
-    h5.mt-2 Métodos estadísticos
+    p Asimismo, permite el procesamiento oportuno y científico de los datos, visualizando de manera gráfica la información para la comprensión del comportamiento de la organización.
+    h5.mt-4 Métodos estadísticos
 
     .row.justify-content-center.mt-5
       .col-lg-9.sm-8

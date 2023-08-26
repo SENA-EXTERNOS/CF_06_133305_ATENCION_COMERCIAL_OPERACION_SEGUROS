@@ -5,7 +5,7 @@ export default {
     descripcionCurso:
       'En este componente, se indica cómo, los procesos de gestión de datos masivos, son necesarios para la toma de decisiones y la buena gestión. Para tal fin, se requiere de una metodología estructurada que consiste en la identificación, el análisis y la depuración de la información recopilada, que permita definir un modelo de datos relacional y poder hacer representaciones gráficas de los datos procesados.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -233,7 +233,7 @@ export default {
     {
       termino: 'Tecnología',
       significado:
-        'ses la aplicación del conocimiento que se hace en la mayoría de las organizaciones, especialmente en las empresas. La tecnología es el mecanismo para el desarrollo y evolución de la ciencia.',
+        'es la aplicación del conocimiento que se hace en la mayoría de las organizaciones, especialmente en las empresas. La tecnología es el mecanismo para el desarrollo y evolución de la ciencia.',
     },
   ],
   referencias: [

@@ -34,7 +34,7 @@
     .row.justify-content-center.mt-5
       .col-lg-9
         TabsA.color-primario
-          .tarjeta.colorblue.p-4(titulo="<small>Miembros</small>")       
+          .tarjeta.colorblue.p-4(titulo="Miembros")       
             .row
               .col-xl-2.mb-4
                 figure
@@ -44,7 +44,7 @@
                 
                 p Son el recurso humano responsable de asumir los roles de la organización.
 
-          .tarjeta.colorblue.p-4(titulo="<small>Recursos</small>")
+          .tarjeta.colorblue.p-4(titulo="Recursos")
 
             .row
               .col-xl-2.mb-4
@@ -55,7 +55,7 @@
                
                 p Para su existencia y posterior desarrollo es necesario que una organización disponga de recursos humanos, financieros, materiales y tecnológicos, lo que facilitará el cumplimiento de sus objetivos organizacionales.
           
-          .tarjeta.colorblue.p-4(titulo="<small>Normas</small>")
+          .tarjeta.colorblue.p-4(titulo="Normas")
             
             .row
               .col-xl-2.mb-4
@@ -66,7 +66,7 @@
                
                 p Son el conjunto de reglas básicas para el funcionamiento de una organización. Estas se expresan en manuales, procedimientos, políticas y estrategias, que son los lineamientos para operar y tomar decisiones.
 
-          .tarjeta.colorblue.p-4(titulo="<small>Fines</small>")
+          .tarjeta.colorblue.p-4(titulo="Fines")
             .row
               .col-xl-2.mb-4
                 figure
@@ -76,7 +76,7 @@
                 
                 p Son aquellas metas y objetivos definidas para alcanzar en un periodo determinado.
 
-          .tarjeta.colorblue.p-4(titulo="<small>Desarrollo de tareas</small>")
+          .tarjeta.colorblue.p-4(titulo="Desarrollo de tareas")
             .row
               .col-xl-2.mb-4
                 figure
@@ -90,7 +90,7 @@
 
     h5.mt-5 Tipos
 
-    p.mt-5 Las organizaciones se clasifican según diversos criterios que permiten categorizarlas en distintos tipos, algunos de estos son:
+    p.mt-5 Las organizaciones se clasifican según diversos criterios que permiten categorizarlas en distintos tipos, algunos de estos son: 
       b la estructura, los ingresos, la propiedad y el tamaño.
     
     p.mt-5 Cada uno de estos criterios de las organizaciones están conformados de la siguiente manera:
