@@ -29,7 +29,7 @@
         .row.justify-content-around.align-items-center.mt-2
           .col-11
           figure
-          img(src='@/assets/curso/temas/tema2/img2.png')
+          img(src='@/assets/curso/temas/tema2/img2.svg')
 
     p.mt-5 Estos pasos no son estrictamente lineales. Se debe iniciar con el paso uno y luego continuar con el paso dos. Sin embargo, los siguientes pasos deben darse naturalmente, sin importar el orden, según cada caso. Varios pasos pequeños e iterativos son mejores que unas pocas fases integrales más grandes.  #[b El ciclo de vida se centra en los pasos del proyecto. ]
      
