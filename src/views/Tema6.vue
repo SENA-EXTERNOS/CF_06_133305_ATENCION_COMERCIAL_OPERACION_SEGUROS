@@ -39,8 +39,8 @@
 
         .row(titulo="Licencias")
           .col-md-6.mb-4.mb-md-0
-            p.ms-5.mt-2 Creative Commons (CC) también tiene una biblioteca de licencias estandarizadas y algunas de ellas se pueden aplicar a datos y bases de datos. La licencia ODC-By, por ejemplo, es el equivalente a una licencia Creative Commons Attribution (CC BY). Las licencias CC BY, sin embargo, se basan en la propiedad de los derechos de autor del trabajo subyacente, mientras que la licencia ODC-By puede aplicarse a trabajos que no están protegidos por derechos de autor, como los datos fácticos.
-            p.ms-5.mt-2 Las licencias CC brindan a todos, desde creadores individuales hasta grandes instituciones, una forma estandarizada de otorgar al público permiso para usar su trabajo creativo bajo la ley de derechos de autor. Desde la perspectiva de quien reutiliza datos, la presencia de una licencia Creative Commons en una obra protegida por derechos de autor responde a la pregunta de qué hacer con la obra.
+            p.ms-5.mt-2 #[em Creative Commons] (CC) también tiene una biblioteca de licencias estandarizadas y algunas de ellas se pueden aplicar a datos y bases de datos. La licencia ODC-By, por ejemplo, es el equivalente a una licencia #[em Creative Commons Attribution] (CC BY). Las licencias CC BY, sin embargo, se basan en la propiedad de los derechos de autor del trabajo subyacente, mientras que la licencia ODC-By puede aplicarse a trabajos que no están protegidos por derechos de autor, como los datos fácticos.
+            p.ms-5.mt-2 Las licencias CC brindan a todos, desde creadores individuales hasta grandes instituciones, una forma estandarizada de otorgar al público permiso para usar su trabajo creativo bajo la ley de derechos de autor. Desde la perspectiva de quien reutiliza datos, la presencia de una licencia #[em Creative Commons] en una obra protegida por derechos de autor responde a la pregunta de qué hacer con la obra.
             p.ms-5.mt-2 Las dos licencias CC de mayor relevancia para la gestión de datos son: CC0 y PDM. Ambas se definen a continuación.
           
           .col-md-5
@@ -57,7 +57,7 @@
 
 
 
-        .row(titulo="Marca de dominio público (PDM, por su nombre en inglés)")
+        .row(titulo="Marca de dominio público (PDM), por su nombre en inglés")
           .col-md-6.mb-4.mb-md-0
             p.ms-5 Se utiliza para marcar obras que son de dominio público y para las cuales no existen restricciones conocidas de derechos de autor o de base de datos. Los datos fácticos en una base de datos, por ejemplo, pueden marcarse como PDM para dejar claro que su uso es gratuito.
           .col-md-5

@@ -166,7 +166,7 @@ export default {
     {
       tema: 'Técnicas de gestión de bases de datos masivos',
       referencia:
-        'Martínez, R. (2017). Cuestiones de ética jurídica al abordar proyectos de Big Data. <i>El contexto del Reglamento general de protección de datos</i>, (24), p. 151-164.',
+        'Martínez, R. (2017). Cuestiones de ética jurídica al abordar proyectos de <i>Big Data. El contexto del Reglamento general de protección de datos</i>, (24), p. 151-164.',
       tipo: 'Artículo',
       link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=6066833',
     },
@@ -180,7 +180,7 @@ export default {
     {
       tema: 'Ciencia de datos',
       referencia:
-        'Bonfante, M., Blanquicett, L., Díaz, E. & Guerra, C. (2018). Modelo de Referencia para la Integración del Modelado de Negocios a la Ingeniería de Requerimientos: Una Propuesta de la Industria del Software. <i>Revista chilena de Ingeniería, 26</i>(4), p. 645-653.',
+        'Bonfante, M., Blanquicett, L., Díaz, E. & Guerra, C. (2018). Modelo de Referencia para la Integración del Modelado de Negocios a la Ingeniería de Requerimientos: Una Propuesta de la Industria del <i>Software. Revista chilena de Ingeniería, 26</i>(4), p. 645-653.',
       tipo: 'Artículo',
       link:
         'https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-33052018000400645&lng=en&nrm=iso&tlng=en',
@@ -209,7 +209,7 @@ export default {
     {
       termino: '<em>Hardware<em>',
       significado:
-        'cualquier componente físico de un sistema informático que contenga una placa de circuito, circuitos integrados u otros componentes electrónicos. Un ejemplo de hardware es la pantalla o monitor de un computador.',
+        'cualquier componente físico de un sistema informático que contenga una placa de circuito, circuitos integrados u otros componentes electrónicos. Un ejemplo de <em>hardware</em> es la pantalla o monitor de un computador.',
     },
     {
       termino: 'Inteligencia artificial (IA)',
@@ -256,6 +256,18 @@ export default {
         'Power Data (2014). <i>Las 6 dimensiones de la calidad de los datos</i>. Powerdata.',
       link:
         'https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/bid/368790/las-6-dimensiones-de-la-calidad-de-los-datos',
+    },
+    {
+      referencia:
+        'Alfredo Baronio, S. C. (2018).Saber y Saber Hacer con Estadística. Argentina UniRio Recuperado de',
+      link:
+        'http://www.unirioeditora.com.ar/wp-content/uploads/2018/10/978-987-688-265-1.pdf#page=18',
+    },
+    {
+      referencia:
+        'Salazar, C., & Castillo, S. D. (2018). Fundamentos básicos de estadística. Recuperado de',
+      link:
+        'https://gc.scalahed.com/recursos/files/r161r/w24899w/Trabajo%20Final/Fundamentos_Basicos_de_Estadistica.pdf',
     },
   ],
   creditos: {

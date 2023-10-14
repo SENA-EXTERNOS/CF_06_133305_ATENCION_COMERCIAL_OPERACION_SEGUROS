@@ -9,11 +9,7 @@
 
     .row
       .col-lg-6.mt-5
-        p La gestión eficaz de 
-          i big data 
-          | por parte de las organizaciones ayuda a ordenar, administrar y controlar grandes volúmenes de datos estructurados y no estructurados. Con esta gestión se garantiza un alto nivel de calidad y accesibilidad de los datos para su análisis y la aplicación de inteligencia empresarial. Las corporaciones, las agencias gubernamentales y otras organizaciones emplean estrategias de administración de 
-          i big data
-          |  para lidiar con grupos de datos de rápido crecimiento, que generalmente involucran muchos terabytes o incluso petabytes almacenados en una variedad amplia de formatos de archivo.
+        p La gestión eficaz de #[em big data] por parte de las organizaciones ayuda a ordenar, administrar y controlar grandes volúmenes de datos estructurados y no estructurados. Con esta gestión se garantiza un alto nivel de calidad y accesibilidad de los datos para su análisis y la aplicación de inteligencia empresarial. Las corporaciones, las agencias gubernamentales y otras organizaciones emplean estrategias de administración de #[em big data] para lidiar con grupos de datos de rápido crecimiento, que generalmente involucran muchos #[em terabytes] o incluso #[em petabytes] almacenados en una variedad amplia de formatos de archivo.
       .col-lg-5
         figure
         img(src='@/assets/curso/temas/tema5/img1.png')
@@ -34,7 +30,7 @@
         .row(titulo="Principales desafíos") 
           
           .col-md-5.mb-4.mb-md-0
-            p.ms-5 Los grandes datos suelen ser complejos. Además de su volumen y variedad, a menudo incluyen datos de transmisión y otros tipos de datos que se crean y actualizan a gran velocidad. Como resultado, el procesamiento y la gestión de big data son tareas complicadas
+            p.ms-5 Los grandes datos suelen ser complejos. Además de su volumen y variedad, a menudo incluyen datos de transmisión y otros tipos de datos que se crean y actualizan a gran velocidad. Como resultado, el procesamiento y la gestión de #[em big data] son tareas complicadas
           .col-md-5.ms-5
             figure
               img(src='@/assets/curso/temas/tema5/img2.png', alt='')
@@ -70,7 +66,7 @@
           .row
             .col-md-7.mb-4.mb-md-0
               
-              p.ms-5 Para permitir una escalabilidad más sencilla y una mayor flexibilidad en las implementaciones, las cargas de trabajo se ejecutan cada vez más en la nube, donde las organizaciones pueden configurar sus propios sistemas o utilizar ofertas de servicios gestionados. Los principales proveedores de gestión de big data incluyen a los líderes del mercado de plataformas en la nube como AWS, Google y Microsoft, además de Cloudera, Databricks y otros que se centran, principalmente, en aplicaciones de big data.
+              p.ms-5 Para permitir una escalabilidad más sencilla y una mayor flexibilidad en las implementaciones, las cargas de trabajo se ejecutan cada vez más en la nube, donde las organizaciones pueden configurar sus propios sistemas o utilizar ofertas de servicios gestionados. Los principales proveedores de gestión de #[em big data] incluyen a los líderes del mercado de plataformas en la nube como AWS, #[em Google] y #[em Microsoft], además de Cloudera, #[em Databricks] y otros que se centran, principalmente, en aplicaciones de #[em big data].
             .col-lg-1
             .col-md-3
               figure

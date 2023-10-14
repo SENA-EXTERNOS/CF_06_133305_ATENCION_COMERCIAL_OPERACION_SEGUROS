@@ -32,11 +32,11 @@
 
 
     .row.justify-content-center.mt-5
-      .col-lg-9
+      .col-lg-10
         TabsA.color-primario
           .tarjeta.colorblue.p-4(titulo="Miembros")       
             .row
-              .col-xl-2.mb-4
+              .col-xl-2.col-4.mb-4
                 figure
                   img(src='@/assets/curso/temas/tema1/img1.png', alt='')
                  
@@ -47,7 +47,7 @@
           .tarjeta.colorblue.p-4(titulo="Recursos")
 
             .row
-              .col-xl-2.mb-4
+              .col-xl-2.col-4.mb-4
                 figure
                   img(src='@/assets/curso/temas/tema1/img2.png', alt='')
                  
@@ -58,7 +58,7 @@
           .tarjeta.colorblue.p-4(titulo="Normas")
             
             .row
-              .col-xl-2.mb-4
+              .col-xl-2.col-4.mb-4
                 figure
                   img(src='@/assets/curso/temas/tema1/img3.png', alt='')
                  
@@ -68,7 +68,7 @@
 
           .tarjeta.colorblue.p-4(titulo="Fines")
             .row
-              .col-xl-2.mb-4
+              .col-xl-2.col-4.mb-4
                 figure
                   img(src='@/assets/curso/temas/tema1/img4.png', alt='')
                  
@@ -78,7 +78,7 @@
 
           .tarjeta.colorblue.p-4(titulo="Desarrollo de tareas")
             .row
-              .col-xl-2.mb-4
+              .col-xl-2.col-4.mb-4
                 figure
                   img(src='@/assets/curso/temas/tema1/img5.png', alt='')
                  
@@ -149,9 +149,7 @@
     .row.justify-content-center.mt-5
       .col-lg-7
         .cajon.color-primario.p-4
-            p En Colombia, las empresas, que son un tipo específico de organización, son clasificadas por su tamaño en micro, pequeñas, medianas y grandes. Esta clasificación se encuentra reglamentada en la Ley 590 de 2000 —conocida como
-              b  Ley MiPymes— 
-              | y sus modificaciones (Ley 905 de 2004).
+            p En Colombia, las empresas, que son un tipo específico de organización, son clasificadas por su tamaño en micro, pequeñas, medianas y grandes. Esta clasificación se encuentra reglamentada en la Ley 590 de 2000 —conocida como #[b Ley MiPymes]— y sus modificaciones (Ley 905 de 2004).
 
 
     Separador  
@@ -167,7 +165,7 @@
         .col-lg-6
           p.mt-3 Las organizaciones son cada vez más dinámicas en su funcionamiento y relacionamiento con otras empresas del sector externo. Al existir cambios y nuevas formas de interacción, las reglas, normas, procedimientos y políticas se ajustan al ritmo del cambio expresado por nuevos materiales, tecnologías y formas de producir e interactuar. A continuación, se aclara el concepto de reglas (o normas) y políticas, para su correcta diferenciación.
           .cajon.color-primario.p-4
-            p Las reglas o normas son establecidas para que las personas que integran una organización las acaten y, con esto, se puedan llevar a cabo procedimientos, establecer comportamientos o tomar decisiones dentro la filosofía de la organización.
+            p Las reglas o normas son establecidas para que las personas que integran una organización las acaten y, con esto, se puedan llevar a cabo procedimientos, establecer comportamientos o tomar decisiones dentro de la filosofía de la organización.
 
     h5.mt-5 Políticas
 
@@ -223,7 +221,7 @@
           .col-11
             .tarjeta.colorgreen.p-3.mt-5
               .row.justify-content-around.align-items-center
-                .col-lg-5
+                .col-lg-5c.ol-10
                   img(src="@/assets/curso/temas/tema1/img9.png")
                 .col-7
                   .row.justify-content-between.align-items-center
@@ -268,25 +266,25 @@
         .col-lg-6
             LineaTiempoD   
               .row(numero="1" titulo="Políticas a largo plazo")
-                .col-lg-2
+                .col-lg-2.col-4
                   img(src='@/assets/curso/temas/tema1/img12.svg' )           
                 .col-lg-9
                   p Suponen objetivos de largo alcance, apuntan a lograr sostenibilidad en el tiempo y pueden estar orientadas, por ejemplo, a lograr la participación de la organización en el mercado nacional.
               
               .row(numero="2" titulo="Políticas a corto plazo")
-                .col-md-2
+                .col-lg-2.col-4
                   img(src='@/assets/curso/temas/tema1/img13.svg'  )
                 .col-lg-9
                   p Guardan relación con situaciones que se deben resolver en un plazo corto y se presentan en el diario vivir de la organización. Como ejemplo de este tipo de política está la atención a clientes enojados.
 
               .row(numero="3" titulo="Políticas financieras")
-                .col-md-2
+                .col-lg-2.col-4
                   img(src='@/assets/curso/temas/tema1/img14.svg' )
                 .col-lg-9
                   p Establecen lineamientos del manejo, el direccionamiento y el control de las áreas de contabilidad, tesorería y tributaria. 
 
               .row(numero="4" titulo="Políticas operacionales")
-                .col-md-2
+                .col-lg-2.col-4
                   img(src='@/assets/curso/temas/tema1/img15.svg' )
                 .col-lg-9
                   p Son aplicadas en el proceso de producción de la organización y buscan garantizar el uso eficiente y eficaz de los recursos.
@@ -294,27 +292,27 @@
         .col-lg-6
           LineaTiempoD
               .row(numero="5" titulo="Políticas personales ")
-                .col-md-2
+                .col-lg-2.col-4
                   img(src='@/assets/curso/temas/tema1/5.svg' )
                 .col-lg-9
                   p Establecen pautas relacionadas con el área de recursos humanos.
 
               .row(numero="6" titulo="Políticas de mercado ")
-                .col-md-2
+                .col-lg-2.col-4
                   img(src='@/assets/curso/temas/tema1/img16.svg' )
                 .col-lg-9
                   p Establecen lineamientos para el mercadeo, la publicidad y las ventas.
 
               
               .row(numero="7" titulo="Políticas generales")
-                .col-md-2
+                .col-lg-2.col-4
                   img(src='@/assets/curso/temas/tema1/img17.svg' )
                 .col-lg-9
                   p Hacen referencia a la globalidad de la organización, se basan en los principios fundantes que deben responder a la estrategia corporativa y su naturaleza, y son el referente para las políticas específicas de la organización.
                 
 
               .row(numero="8" titulo="Políticas específicas")
-                .col-md-2
+                .col-lg-2.col-4
                   img(src='@/assets/curso/temas/tema1/img17.svg' )
                 .col-lg-9
                   p Son aplicadas en las diferentes áreas de la organización y su alcance se orienta a las acciones, los procedimientos y las decisiones que se adoptan o llevan a cabo. Entre ellas se encuentran las políticas específicas de seguridad y salud en el trabajo, gestión del cambio, recursos humanos, calidad, gestión ambiental, responsabilidad social y empresarial.  
@@ -327,7 +325,7 @@
       | las cuales hacen referencia a acciones definidas para evitar inconvenientes en las áreas de 
       b tecnologías de la información. 
       | La consecuencia más directa se presenta en equipos,
-      i  softwares, 
+      i  software, 
       |  infraestructura tecnológica, afectaciones que impacten la velocidad de procesamiento, capacidad de almacenamiento, seguridad y confidencialidad de la información, y la disponibilidad directa de los datos.
                 
     p.my-5 A continuación, se presentan las acciones relacionadas con la implementación de cambios, alusivas a estas políticas:        
@@ -424,7 +422,7 @@
       .col-9
         .tarjeta.color-secundario.p-3
           .row.justify-content-around.align-items-center
-            .col-lg-1
+            .col-lg-1.col-2
               img(src="@/assets/curso/temas/tema1/img22.png" )
             .col-10
               .row.justify-content-between.align-items-center

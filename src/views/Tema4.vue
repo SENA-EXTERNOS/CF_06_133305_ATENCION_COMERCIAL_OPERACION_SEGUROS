@@ -9,7 +9,7 @@
 
     .bloque-texto-b.color-cajon.p-1
           .bloque-texto-b__texto
-            p En la misma medida que crecen las organizaciones, los datos recopilados se deben ir estructurando con el fin de tomar decisiones importantes que conlleven a consolidar y proyectar mejor la empresa. Es por esto que se hace necesario el uso de las bases de datos. Estas son una colección organizada de información estructurada o de datos, normalmente almacenados electrónicamente en un sistema informático. Generalmente está controlada por un sistema de administración de bases de datos (DBMS, por su nombre en inglés). 
+            p En la misma medida que crecen las organizaciones, los datos recopilados se deben ir estructurando con el fin de tomar decisiones importantes que conlleven a consolidar y proyectar mejor la empresa. Es por esto que se hace necesario el uso de las bases de datos. Estas son una colección organizada de información estructurada o de datos, normalmente almacenados electrónicamente en un sistema informático. Generalmente está controlada por un sistema de administración de bases de datos (DBMS), por su nombre en inglés. 
 
     p.mt-5 Observe, en la siguiente figura, las cinco características principales de una base de datos: 
 
@@ -67,9 +67,7 @@
                 | RDBMS de Oracle.
               li.mb-2 
                 i.fas.fa-angle-right.yelllow.me-2
-                | Salesforce y otros 
-                i softwares 
-                | de ventas o CRM.
+                p.mb-0 #[em Salesforce] y otros #[em software] de ventas o CRM.
               li.mb-2 
                 i.fas.fa-angle-right.yelllow.me-2
                 | DevOps.

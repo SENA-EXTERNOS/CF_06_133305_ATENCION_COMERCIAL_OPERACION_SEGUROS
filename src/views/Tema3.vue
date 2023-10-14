@@ -27,59 +27,59 @@
     TabsA.color-primario.orangecolor.mt-5  
       .tarjeta.colorblue.p-4(titulo="Riesgos enfermedades")       
         .row
-          .col-xl-2.mb-4
+          .col-lg-2.col-4.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img2.svg', alt='')
             
-          .col-xl-10
+          .col-lg-10
             
             p Ejemplo: identificar los factores de riesgo del cáncer de próstata.
       .tarjeta.colorblue.p-4(titulo="Predicciones")
 
         .row
-          .col-xl-2.mb-4
+          .col-lg-2.col-4.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img3.svg', alt='')
             
-          .col-xl-10
+          .col-lg-10
               
             p Ejemplo: predecir si alguien sufrirá un ataque al corazón sobre la base de mediciones demográficas, dietéticas o clínicas.
 
       .tarjeta.colorblue.p-4(titulo="Detección de correos")            
         .row
-          .col-xl-2.mb-4
+          .col-lg-2.col-4.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img4.svg', alt='')
             
-          .col-xl-10
+          .col-lg-10
             
             p Ejemplo: personalizar un sistema de detección de correo no deseado.
       .tarjeta.colorblue.p-4(titulo="Código postal")            
         .row
-          .col-xl-2.mb-4
+          .col-lg-2.col-4.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img5.svg', alt='')
             
-          .col-xl-10
+          .col-lg-10
             
             p Ejemplo: identificar los números en un código postal escrito a mano.
 
       .tarjeta.colorblue.p-4(titulo="Clasificar elementos")            
         .row
-          .col-xl-2.mb-4
+          .col-lg-2.col-4.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img6.svg', alt='')
             
-          .col-xl-10
+          .col-lg-10
             
             p Ejemplo: clasificar una muestra de tejido como uno afectado por un tipo específico de cáncer.
       .tarjeta.colorblue.p-4(titulo="Relación de variables")            
         .row
-          .col-xl-2.mb-4
+          .col-lg-2.col-4.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img7.svg', alt='')
             
-          .col-xl-10
+          .col-lg-10
             
             p Ejemplo: establecer la relación entre salario y variables demográficas a partir de los datos de encuestas de población.
 
@@ -99,30 +99,30 @@
         TabsA.color-primario.orangecolor.mt-5  
           .tarjeta.colorblue.p-4(titulo="Objetivo")       
             .row.justify-content-center.align-items-center
-              .col-xl-2.mb-4
+              .col-lg-2.col-4.mb-4
                 figure
                   img(src='@/assets/curso/temas/tema3/img16.svg', alt='')
                 
-              .col-xl-10
+              .col-lg-10
                 
                 p Propósito del estudio.
           .tarjeta.colorblue.p-4(titulo="Comportamiento")
 
             .row.justify-content-center.align-items-center
-              .col-xl-2.mb-4
+              .col-lg-2.col-4.mb-4
                 figure
                   img(src='@/assets/curso/temas/tema3/img17.svg', alt='')
                 
-              .col-xl-10
+              .col-lg-10
                 
                 p Tipo y distribución de los datos usados.
           .tarjeta.colorblue.p-4(titulo="Naturaleza")            
             .row.justify-content-center.align-items-center
-              .col-xl-2.mb-4
+              .col-lg-2.col-4.mb-4
                 figure
                   img(src='@/assets/curso/temas/tema3/img18.svg', alt='')
                 
-              .col-xl-10
+              .col-lg-10
                 
                 p Naturaleza de las observaciones (pareadas o no pareadas).  
 

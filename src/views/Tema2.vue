@@ -42,7 +42,7 @@
         h2 2.1 Técnicas de análisis de datos y modelos analíticos
 
       .row.justify-content-center.align-items-start.mt-5      
-          .col-lg-4
+          .col-lg-4.col-8
               img(src='@/assets/curso/temas/tema2/img3.png')                   
           .col-lg-7
             p.mt-3 En vista de que toda organización genera una gran cantidad de datos, es necesario utilizar diferentes técnicas para su manipulación. El análisis de datos es una técnica que implica diversas actividades, como recopilar, depurar y organizar los datos. Estos procesos, que suelen incluir 
@@ -58,20 +58,20 @@
     
       PasosA.color-secundario.mb-5(tipo="n")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             h3 Técnica de análisis de datos cuantitativos
-            p Este análisis implica trabajar con variables numéricas como la estadística, los porcentajes, los cálculos o las medidas, ya que la naturaleza de los datos cuantitativos es netamente numérica. Las técnicas de análisis de datos cuantitativos generalmente implican trabajar con algoritmos, herramientas de análisis matemático y software para manipular datos y descubrir información que revele el valor de, por ejemplo, un negocio.
-          .col-md-5
+            p Este análisis implica trabajar con variables numéricas como la estadística, los porcentajes, los cálculos o las medidas, ya que la naturaleza de los datos cuantitativos es netamente numérica. Las técnicas de análisis de datos cuantitativos generalmente implican trabajar con algoritmos, herramientas de análisis matemático y #[em software] para manipular datos y descubrir información que revele el valor de, por ejemplo, un negocio.
+          .col-lg-5.col-10
             figure
               img(src='@/assets/curso/temas/tema2/img4.png', alt='')
               
 
         .row
-          .col-md-5.mb-4.mb-md-0
+          .col-lg-5.col-10.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema2/img5.png', alt='')
               
-          .col-md-5
+          .col-lg-5
             h3 Técnicas de análisis de datos cualitativos
             p Los datos cualitativos describen información que normalmente no es numérica. Estas técnicas trabajan con identificadores únicos, como etiquetas y propiedades o variables categóricas como estadísticas, porcentajes y medidas. Ejemplo de estas son la observación de primera mano o de participantes, las entrevistas, los grupos focales o la revisión de documentos y artefactos.
 
@@ -135,33 +135,33 @@
     TabsA.color-primario.orangecolor.mt-5  
       .tarjeta.colorblue.p-4(titulo="Datos propios")       
         .row
-          .col-xl-2.mb-4
+          .col-lg-2.col-4.mb-4
             figure
               img(src='@/assets/curso/temas/tema2/img9.svg', alt='')
               
-          .col-xl-10
+          .col-lg-10
             
             p Los recopila una organización directamente de los usuarios y los clientes.
 
       .tarjeta.colorblue.p-4(titulo="Datos de la segunda parte")
 
         .row
-          .col-xl-2.mb-4
+          .col-lg-2.col-4.mb-4
             figure
               img(src='@/assets/curso/temas/tema2/img10.svg', alt='')
               
-          .col-xl-10
+          .col-lg-10
             
             p Datos de clientes o datos de primera parte que comparte una organización con otra.
       
       .tarjeta.colorblue.p-4(titulo="Datos de terceros")
         
         .row
-          .col-xl-2.mb-4
+          .col-lg-2.col-4.mb-4
             figure
               img(src='@/assets/curso/temas/tema2/img11.svg', alt='')
               
-          .col-xl-10
+          .col-lg-10
             
             p Son los datos agregados alquilados o vendidos por organizaciones que no tienen conexión con la organización o los usuarios.
 
@@ -181,7 +181,7 @@
             .col-10
               .row
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Profundice en cada uno de estos métodos, explorando y estudiando el Anexo: Métodos de recopilación de datos. <b>¡Adelante!</b>
+                  p.mb-0 Profundice en cada uno de estos métodos, explorando y estudiando el Anexo: Métodos de recopilación e integración de datos. <b>¡Adelante!</b>
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo2Metodosderecopilacioneintegraciondedatos.pdf')" target="_blank")
                     span Descargar
