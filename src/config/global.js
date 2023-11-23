@@ -239,7 +239,9 @@ export default {
   referencias: [
     {
       referencia:
-        'Borja, D. (2017). <em>Matemáticas en contexto.<em> Magisterio.',
+        'Borja, D. (2017).<em> Matemáticas en contexto.</em> Escuela Nacional de Instructores Rodolfo Martínez Tono. Servicio Nacional de Aprendizaje (SENA).',
+      link:
+        'https://repositorio.sena.edu.co/bitstream/handle/11404/5136/matematicas_contexto.pdf?sequence=3&isAllowed=y',
     },
     {
       referencia:
@@ -259,7 +261,8 @@ export default {
     },
     {
       referencia:
-        'Alfredo Baronio, S. C. (2018).Saber y Saber Hacer con Estadística. Argentina UniRio Recuperado de',
+        'Baronio A., Cabrera S. & Scattolini N. (2018). Saber y Saber Hacer con Estadística. Argentina. UniRio.',
+
       link:
         'http://www.unirioeditora.com.ar/wp-content/uploads/2018/10/978-987-688-265-1.pdf#page=18',
     },
